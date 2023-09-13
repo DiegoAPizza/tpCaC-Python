@@ -20,3 +20,52 @@
     height: 3em;
     width: 3em;
 }
+.principal
+{
+-webkit-text-stroke: 2px rgb(3, 3, 2);
+color: rgb(4, 231, 72);
+font-size: 55px;
+}
+.parra
+{
+font-family: fantasy;
+font-size: 20px;
+}
+.carrousel{
+    width: 100%;
+    max-width: 120em ;
+    background-color: aquamarine;
+
+
+}
+.carrousel .grande{
+width: 400%;
+background-color: beige;
+
+display: flex;
+flex-flow: row nowrap;
+justify-content: flex-start;
+text-align: center;
+}
+.carrousel .img{
+width: calc(100%/4);
+background-color: rgb(245, 202, 10);
+
+}
+.carrousel .puntos{
+    width: 100% ;
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+
+}
+.carrousel .punto{
+    width: 1em;
+    height:1em;
+    background-color: greenyellow;
+    margin: 1em;
+
+}
