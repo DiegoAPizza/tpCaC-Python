@@ -9,11 +9,18 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin: 15em;
 }
 .container_form{
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1em solid #439b0c;
+    margin: 1em;
+    padding: 1.5em;
 }
+
 /*.label_form{} Pendiente de modificacion*/
 
 
