@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .logo{
     width: 5em;
     height: 5em;
@@ -25,33 +26,64 @@
 -webkit-text-stroke: 2px rgb(3, 3, 2);
 color: rgb(4, 231, 72);
 font-size: 55px;
+text-align: center;
 }
 .parra
 {
 font-family: fantasy;
 font-size: 20px;
-}
-.carrousel{
-    width: 100%;
-    max-width: 120em ;
-    background-color: aquamarine;
-
-
-}
-.carrousel .grande{
-width: 400%;
-background-color: beige;
-
-display: flex;
-flex-flow: row nowrap;
-justify-content: flex-start;
 text-align: center;
 }
-.carrousel .img{
-width: calc(100%/4);
-background-color: rgb(245, 202, 10);
+#contenedorcarru{
+    height: 250px ;
+    overflow: hidden;
+    border: 4px solid black;
+     } 
+     .carru{
+     height: 100%;
+     position: relative;
+ 
+     }
+     .carru .items{
+     height: 100%;
+     
+     }
+     .carru .flechas{
+         height: 100%;
+         width: 100%;
+         position: absolute;
+         top: 0;
+         display: flex;
+         align-items: center;
+         color: rgb(16, 49, 197);  
+         justify-content: space-between;
+         padding: 3em;
+     }  
+     a{
+         text-decoration: none;
+     }
+     i{
+      color: black;
+     }
+ 
+     #img1{
+    background-color: aquamarine;
+     }
+     #img2{
+         background-color: blueviolet;
+     }
+     #img3{
+       background-color: darkorange;
+     }
+     #img4{
+ background-color: darksalmon;
+     }
+   
+    
+    
 
-}
+
+
 .carrousel .puntos{
     width: 100% ;
     background-color: black;
