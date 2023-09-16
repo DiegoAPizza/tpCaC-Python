@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NombreDeLaPagina</title>
     <link rel="stylesheet" href="./style/style.css">
     <script src="https://kit.fontawesome.com/ca8ede1c9c.js" crossorigin="anonymous"></script>
 </head>
@@ -14,101 +14,85 @@
         <picture>
             <img class="logo" src="./style/img/logo.jpg" alt="Logo_web_site">
         </picture>
-        <nav class="nav-bar">
-            <ul id="menu">
-                <li><a href="#">Inicio </a></li>
-                <li><a href="#">Merchandaicing </a></li>
-                <li><a href="#">Registrase </a></li>
-                <li><a href="#">Contacto </a></li>
+        <nav class="nav_bar">
+            <ul>
+                <li><a class="nav_bar_aPage" href="#">Inicio </a></li>
+                <li><a class="nav_bar_aPage" href="./page/shop.html">Merchandaicing </a></li>
+                <li><a class="nav_bar_aPage" href="./page/register.html">Registrase </a></li>
+                <li><a class="nav_bar_aPage" href="./page/contactanos.html">Contacto </a></li>
             </ul>
         </nav>
     </header>
     <main class="container">
         <article>
             <section>
-                <div class="container_gameplay">
-                    <h2 class="title">Ultimos Gameplays</h2>
-                    <div>
-                        <h1 class="principal">MODO MINECRAFT</h1>
+                <!--Noticias agregar una parte de noticas de la semanas-->
+            </section>
+            <section class="">
+                <div id="contenedorcarru">
+
+                    <div class="carru" id="cmm1">
+                        <div class="items" id="img1">
+                            <img src="./style/img/gatete.png.jpg" alt=" p.creeper">
+                        </div>
+                        <div class="flechas">
+                            <a href="#cmm4">
+                                <i><i class="fa-solid fa-chevron-left"></i></i>
+                            </a>
+                            <a href="#cmm2">
+                                <i><i class="fa-solid fa-chevron-right"></i></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="carru" id="cmm2">
+                        <div class="items" id="img2">
+                            <img src="./style/img/gatete.png.jpg" alt=" p.creeper">
+                        </div>
+                        <div class="flechas">
+                            <a href="#cmm1">
+                                <i><i class="fa-solid fa-chevron-right"></i></i>
+                            </a>
+                            <a href="#cmm3">
+                                <i><i class="fa-solid fa-chevron-right"></i></i>
+                            </a>
+                        </div>
                     </div>
 
-                    <div>
-                        <p class="parra">bienvenidos al e-comerce mas craft de todos,
-                            de fanaticos para fanaticos </p>
+                    <div class="carru" id="cmm3">
+                        <div class="items" id="img3">
+                            <img src="./style/img/lindo.png.jpg" alt=" p.creeper">
                         </div>
-                    <br><br>
-                    <div id="contenedorcarru">
-
-                        <div class="carru" id="cmm1">
-                            <div class="items" id="img1">
-                                <img src="./style/img/gatete.png.jpg" alt=" p.creeper">
-                            </div>
-                                <div class="flechas">
-                                    <a href="#cmm4">
-                                        <i><i class="fa-solid fa-chevron-left"></i></i>
-                                    </a>
-                                        <a href="#cmm2">
-                                            <i><i class="fa-solid fa-chevron-right"></i></i>
-                                        </a>
-                                    
-                                </div>
+                        <div class="flechas">
+                            <a href="#cmm2">
+                                <i><i class="fa-solid fa-chevron-left"></i></i>
+                            </a>
+                            <a href="#cmm4">
+                                <i><i class="fa-solid fa-chevron-right"></i></i>
+                            </a>
                         </div>
-                        <div class="carru" id="cmm2">
-                            <div class="items" id="img2">
-                                 <img src="./style/img/gatete.png.jpg" alt=" p.creeper">
-                            </div>
-                                <div class="flechas">
-                                    <a href="#cmm1">
-                                        <i><i class="fa-solid fa-chevron-right"></i></i>
-                                    </a>
-                                        <a href="#cmm3">
-                                            <i><i class="fa-solid fa-chevron-right"></i></i>
-                                        </a>
-                                </div>
-                         </div>
-                
-                            <div class="carru" id="cmm3">
-                                <div class="items" id="img3">
-                                    <img src="./style/img/lindo.png.jpg" alt=" p.creeper">
-                                </div>
-                                    <div class="flechas">
-                                        <a href="#cmm2">
-                                            <i><i class="fa-solid fa-chevron-left"></i></i>
-                                        </a>
-                                            <a href="#cmm4">
-                                                <i><i class="fa-solid fa-chevron-right"></i></i>
-                                            </a>
-                                     </div>
-                            </div>
-                
-                                <div class="carru" id="cmm4">
-                                    <div class="items" id="img4">
-                                        <img src="" alt=" p.creeper">
-                                    </div>
-                                        <div class="flechas">
-                                            <a href="#cmm3">
-                                                <i><i class="fa-solid fa-chevron-left"></i></i>
-                                            </a>
-                                                <a href="#cmm1">
-                                                    <i><i class="fa-solid fa-chevron-right"></i></i>
-                                                </a>
-                                            
-                                         </div>
-                                 </div>
-                                       
                     </div>
-                        <ul class="puntos">
-                            <li class="punto"></li>
-                            <li class="punto"></li>
-                            <li class="punto"></li>
-                        
-                        </ul>
 
+                    <div class="carru" id="cmm4">
+                        <div class="items" id="img4">
+                            <img src="" alt=" p.creeper">
+                        </div>
+                        <div class="flechas">
+                            <a href="#cmm3">
+                                <i><i class="fa-solid fa-chevron-left"></i></i>
+                            </a>
+                            <a href="#cmm1">
+                                <i><i class="fa-solid fa-chevron-right"></i></i>
+                            </a>
+
+                        </div>
                     </div>
                 </div>
             </section>
         </article>
-
+        <article>
+            <!--Agregar gameplay del juego-->
+        </article>
     </main>
     <footer class="footer_container">
         <picture>
