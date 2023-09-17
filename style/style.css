@@ -3,8 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*Header*/
+.header{
+    background:#3498db ;
+    height:5em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
+
+
 /*Register */
-.container{
+/*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
+.fondo_register{
+    background: no-repeat url(./img/Fondo_deRegister.jpg);
+    background-size: cover ;
+    background-position : center top ;
+}
+.container_register{
     display: flex;
     align-items: center;
     justify-content: center;
