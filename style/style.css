@@ -26,7 +26,7 @@ body{
 
 
 
-/*Register */
+/*Register*/
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
 .fondo_register {
     border: 3px solid black;
@@ -35,7 +35,6 @@ body{
     background-position: center top; 
     backface-visibility: inherit;
     background-attachment: fixed;
-
 }
 
 .titulo {
@@ -56,13 +55,11 @@ body{
     font-size:35px;
     -webkit-text-stroke: 1px rgba(84, 214, 231, 0.863);
      color: rgba(128, 128, 128, 0.623);
-     letter: spacing -1px;;
+     letter-spacing: spacing -1px;;
      word-spacing: 0.25em;
 }
 
-.mmcontendor{
-   
-}
+
 
 .container_register {
     display: flex;
