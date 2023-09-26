@@ -3,38 +3,74 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+   background-image: url(img/HD-wallpaper-minecraft-abstract-games-thumbnail.jpg);
+   background-size: cover;
+    }
+
 /*Header*/
-.header{
-    background:#3498db ;
-    height:5em;
+.header {
+    background: #3498db;
+    height: 5em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 1.3em;
     padding: 1em;
 }
-.nav_link{
+
+.nav_link {
     color: white !important;
     margin: 1.2em;
 }
 
 
 
-/*Register */
+/*Register*/
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
-.fondo_register{
+.fondo_register {
+    border: 3px solid black;
     background: no-repeat url(./img/Fondo_deRegister.jpg);
-    background-size: cover ;
-    background-position : center top ;
+    background-size: cover;
+    background-position: center top; 
+    backface-visibility: inherit;
+    background-attachment: fixed;
 }
-.container_register{
+
+.titulo {
+   
+        text-align: center; 
+        margin: auto;
+        margin-top: 120px;
+    
+}
+
+.slogan{
+
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-weight: 700px;
+    font-style: oblique;
+    font-size:35px;
+    -webkit-text-stroke: 1px rgba(84, 214, 231, 0.863);
+     color: rgba(128, 128, 128, 0.623);
+     letter-spacing: spacing -1px;;
+     word-spacing: 0.25em;
+}
+
+
+
+.container_register {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 15em;
+
 }
-.container_form{
+
+.container_form {
     display: flex;
     align-items: center;
     background-color: #439b0c;
@@ -47,7 +83,7 @@
 
 /*
 Pendiente de modificacion*/
-.label_form{
+.label_form {
     color: #9b260c;
     font-size: 1.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -80,6 +116,15 @@ Pendiente de modificacion*/
     height: 250px;
     overflow: hidden;
     border: 4px solid black;
+   text-align: center;
+   margin: auto;
+   margin-top: 100px;
+   border-radius: 50px;
+   background: #ffffff;
+   box-shadow: inset -5px 5px 10px #6b6b6b,
+               inset 5px -5px 10px #ffffff;
+               position: sticky;
+               top: 0%;
 }
 
 .carru {
@@ -90,6 +135,7 @@ Pendiente de modificacion*/
 
 .carru .items {
     height: 100%;
+    margin: 0% auto;
 
 }
 
@@ -113,21 +159,7 @@ i {
     color: black;
 }
 
-#img1 {
-    background-color: aquamarine;
-}
 
-#img2 {
-    background-color: blueviolet;
-}
-
-#img3 {
-    background-color: darkorange;
-}
-
-#img4 {
-    background-color: darksalmon;
-}
 
 .carrousel .puntos {
     width: 100%;
@@ -147,37 +179,44 @@ i {
     margin: 1em;
 
 }
+.reseñas{
+    border: 3px solid black;
+    height: 180px;
+    margin: auto;
+    margin-top: 60px;
+}
+
 
 /*Codigo del FormCompra*/
 
-*{
+* {
     padding: 0;
     margin: 0;
     border: 0;
 }
 
-.head{
-    background-color:#52a535;
+.head {
+    background-color: #52a535;
     display: flex;
     width: 100%;
-    height:60px;
-    
+    height: 60px;
+
 }
 
-.navbar a{
+.navbar a {
     color: white;
     text-transform: uppercase;
-    padding: 15px 15px ; 
+    padding: 15px 15px;
     display: block;
 }
-.navbar{
-    display:flex;
+
+.navbar {
+    display: flex;
     margin-right: 10px;
-   
+
 }
 
-.cuerpo{
+.cuerpo {
     background-color: #83b6be;
-    
-}
 
+}
