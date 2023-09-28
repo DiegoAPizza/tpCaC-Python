@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+
+}
+.nav_reference{
+
+}
+
+.content_Productos{}
+
+.seccion_producto{}
+
+.producto{}
+
+.imagenDelProducto{}
+
+.precioProducto{}
+
+.descripcionProducto{}
+
+.btn-compra{}
+
+.btn-selecionDeCantidad{}
+
+#cantidadDeProductos{}
+
+.btn-selecionDeCantidad{}
+
+.btn-aniadirProducto{}
+
+/*Seccion */
+.seccionOfertas{}
+
+.productoOferta{}
+
+.productoOferta_img{}
+
+.tituloProductoOferta{}
+
+.precioOferta{}
