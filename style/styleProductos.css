@@ -18,62 +18,129 @@
 }
 
 .content_Productos {
-    display: flex; 
-
-}
-
-.seccion_producto {
     display: flex;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  
 }
+
 
 .producto {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
 }
 
 .imagenDelProducto {
-    display: flex;
-    height: 10em;
-    width: 10em;
+    grid-column: 1;
+    height: 30em;
+    width: 30em;
+}
+
+.title{
+    grid-row: 0;
+    grid-column: 1;
+    font-size: 2em;
 }
 
 .precioProducto {
     grid-column: 1;
+    font-size: 3em;
 }
 
-.descripcionProducto {}
+.descripcionProducto {
+    grid-column:2 ;
+    grid-row: 2;
+    font-size: 1.5em;
+}
 
-.btn-compra {}
+.productoAComprar{
+        grid-column: 2;
+}
+/*Btns*/
+.btn-compra {
+    background:#1dc215;
+    color: #fff !important;
+    border-radius: .4rem;
+    padding:.9rem  1.4rem!important;
+    font-size: 1.2em;
+}
 
-.btn-selecionDeCantidad {}
+.btn-selecionDeCantidad {
+    background:#d5640e;
+    color: #fff !important;
+    border-radius: .4rem;
+    padding:.8rem   1.7rem!important;;
+    font-size: 1.2em;
+}
 
-#cantidadDeProductos {}
+#cantidadDeProductos {
+    font-size: 1.5em;
+}
 
-.btn-selecionDeCantidad {}
+.btn-aniadirProducto {
+    background:#f2a30c;
+    color: #fff !important;
+    border-radius: .4rem;
+    padding:.8rem    1.7rem!important;
+    font-size: 1.2em;
+}
 
-.btn-aniadirProducto {}
+/*Seccion Oferta */
+.seccionOfertas {
+    display: flex;
+    flex-direction: row;
+}
 
-/*Seccion */
-.seccionOfertas {}
+.productoOferta {
+    display:grid;
+}
 
-.productoOferta {}
+.productoOferta_img {
+    height: 20em;
+    width: 20em;
+}
 
-.productoOferta_img {}
+.ofertasTitle{
+    font-size: 3em;
+    margin: .4em;
 
-.tituloProductoOferta {}
+}
 
-.precioOferta {}
+.tituloProductoOferta {
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-.productoOferta_img {}
+}
 
-.tituloProductoOferta {}
+.itemProducto{
+    display :flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.itemProducto:visited{
+    text-decoration:none ;    
+    color: black;
+}
 
-.precioOferta {}
+.precioOferta {
+    font-style: italic;
+    font-size: 1.5em;
+}
 
 /* Footer */
-.footer {}
+.footer {
+    display: flex;
+    justify-content: space-around;
 
-.footer_img {}
+}
 
-.footer_container_p {}
+.footer_img {
+    
+}
+
+.footer_container_p {
+    font-size:1.4em;
+
+}

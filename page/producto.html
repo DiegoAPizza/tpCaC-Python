@@ -10,6 +10,9 @@
 
 <body>
     <header class="header">
+        <picture>
+            <a href="../index.html"><img src="" alt=""> Modo Minecroft</a>
+        </picture>
         <nav>
             <a class="nav_reference" href="../index.html"> Inicio</a>
             <a class="nav_reference" href="./contactanos.html">Contactanos</a>
@@ -24,32 +27,44 @@
                 <img src="../style/img/abeja.png.jpg" class="imagenDelProducto" alt="imagenDelProducto">
                 <h5 class="precioProducto">precio</h5>
                 <p class="descripcionProducto">descripcion</p>
-                <button class="btn-compra">compra</button>
-                <button class="btn-selecionDeCantidad">- </button>
-                <label for="text" id="cantidadDeProductos">0</label>
-                <button class="btn-selecionDeCantidad">+</button>
-                <button class="btn-aniadirProducto">añadir_Producto</button>
+                <div class="productoAComprar">
+                    <button class="btn-compra">compra</button>
+                    <button class="btn-selecionDeCantidad">- </button>
+                    <label for="text" id="cantidadDeProductos">0</label>
+                    <button class="btn-selecionDeCantidad">+</button>
+                    <button class="btn-aniadirProducto">añadir_Producto</button>
+                </div>
             </article>
         </section>
+        <h2 class="ofertasTitle">Seccion de Ofertas</h2>
         <section class="seccionOfertas">
-            <article>
-                <a href="../index.html">
+            <article class="productosOferta">
+                <a class="itemProducto" href="../index.html">
                     <div class="productoOferta">
-                        <img class="productoOferta_img" src="" alt="productoOferta">
+                        <picture>
+                            <img class="productoOferta_img" src="../style/img/abeja.png.jpg" alt="producto_oferta">
+                        </picture>
                         <h5 class="tituloProductoOferta">Nombre_del_Producto</h5>
                         <p class="precioOferta">precio</p>
                     </div>
                 </a>
-                <a href="">
+            </article>
+            <article class="productosOferta">
+                <a class="itemProducto" href="">
                     <div class="productoOferta">
-                        <img class="productoOferta_img" src="" alt="producto_oferta">
+                        <picture>
+                            <img class="productoOferta_img" src="../style/img/abeja.png.jpg" alt="producto_oferta">
+                        </picture>
                         <h5 class="tituloProductoOferta">Nombre_del_Producto</h5>
                         <p class="precioOferta">precio</p>
                     </div>
                 </a>
-                <a href="">
+            </article>
+            <article><a class="itemProducto" href="">
                     <div class="producto_oferta">
-                        <img class="productoOferta_img" src="" alt="producto_oferta">
+                        <picture>
+                            <img class="productoOferta_img" src="../style/img/abeja.png.jpg" alt="producto_oferta">
+                        </picture>
                         <h5 class="tituloProductoOferta">Nombre_del_Producto</h5>
                         <p class="precioOferta">precio</p>
                     </div>
