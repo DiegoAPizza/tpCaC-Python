@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    height: 3em;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+.nav_reference {
+    list-style: none;
+    text-decoration: none;   
+}
+
+.content_Productos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  
+}
+
+
+.producto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.imagenDelProducto {
+    grid-column: 1;
+    height: 30em;
+    width: 30em;
+}
+
+.title{
+    grid-row: 0;
+    grid-column: 1;
+    font-size: 2em;
+}
+
+.precioProducto {
+    grid-column: 1;
+    font-size: 3em;
+}
+
+.descripcionProducto {
+    grid-column:2 ;
+    grid-row: 2;
+    font-size: 1.5em;
+}
+
+.productoAComprar{
+        grid-column: 2;
+}
+/*Btns*/
+.btn-compra {
+    background:#1dc215;
+    color: #fff !important;
+    border-radius: .4rem;
+    padding:.9rem  1.4rem!important;
+    font-size: 1.2em;
+}
+
+.btn-selecionDeCantidad {
+    background:#d5640e;
+    color: #fff !important;
+    border-radius: .4rem;
+    padding:.8rem   1.7rem!important;;
+    font-size: 1.2em;
+}
+
+#cantidadDeProductos {
+    font-size: 1.5em;
+}
+
+.btn-aniadirProducto {
+    background:#f2a30c;
+    color: #fff !important;
+    border-radius: .4rem;
+    padding:.8rem    1.7rem!important;
+    font-size: 1.2em;
+}
+
+/*Seccion Oferta */
+.seccionOfertas {
+    display: flex;
+    flex-direction: row;
+}
+
+.productoOferta {
+    display:grid;
+}
+
+.productoOferta_img {
+    height: 20em;
+    width: 20em;
+}
+
+.ofertasTitle{
+    font-size: 3em;
+    margin: .4em;
+
+}
+
+.tituloProductoOferta {
+    font-weight: 700;
+    font-size: 1.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.itemProducto{
+    display :flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.itemProducto:visited{
+    text-decoration:none ;    
+    color: black;
+}
+
+.precioOferta {
+    font-style: italic;
+    font-size: 1.5em;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer_img {
+    
+}
+
+.footer_container_p {
+    font-size:1.4em;
+
+}
