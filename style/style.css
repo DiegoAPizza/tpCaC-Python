@@ -6,18 +6,22 @@
 body{
    background-image: url(img/HD-wallpaper-minecraft-abstract-games-thumbnail.jpg);
    background-size: cover;
+
     }
 
 /*Header*/
 .header {
     background: #3498db;
-    height: 5em;
+    height: 3em;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    font-size: 1.3em;
+    font-size: 1.4em;
     padding: 1em;
+    
 }
+
+
 
 .nav_link {
     color: white !important;
@@ -30,7 +34,7 @@ body{
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
 .fondo_register {
     border: 3px solid black;
-    background: no-repeat url(./img/Fondo_deRegister.jpg);
+    background: no-repeat url(./img/HD-wallpaper-video-game-minecraft2.jpg);
     background-size: cover;
     background-position: center top; 
     backface-visibility: inherit;
@@ -61,7 +65,7 @@ body{
 }
 
 .mmcontendor{
-   
+   border: 4px solid black;
 }
 
 .container_register {
@@ -70,6 +74,7 @@ body{
     justify-content: center;
     flex-direction: column;
     margin: 15em;
+    
 
 }
 
@@ -118,8 +123,6 @@ Pendiente de modificacion*/
 #contenedorcarru {
     height: 250px;
     overflow: hidden;
-    border: 4px solid black;
-   text-align: center;
    margin: auto;
    margin-top: 100px;
    border-radius: 50px;
@@ -128,6 +131,7 @@ Pendiente de modificacion*/
                inset 5px -5px 10px #ffffff;
                position: sticky;
                top: 0%;
+               text-align: center;
 }
 
 .carru {
@@ -223,3 +227,4 @@ i {
     background-color: #83b6be;
 
 }
+
