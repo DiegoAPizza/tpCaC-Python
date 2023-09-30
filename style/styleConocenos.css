@@ -1,8 +1,126 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.header{
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.fondo{
+    box-shadow: 0 60px 60px -60px rgb(0, 30, 255, 0.5);
+    border-radius: 4px ;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.foto2{
+
+ position: absolute;
+    width: 221px;
+    height: 239px;
+    bottom: 30em;
+    left: 15em;
+    right: 0;
+    top: 2.6% ;
+    margin: auto;
+}
+.foto3{
+    
+    position: absolute;
+    width: 228px;
+    height: 244px;
+    left: 0.8em;
+    right: 1;
+    top: 1%;
+    margin: auto;
+}
+
+
+.tarjeta div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   backface-visibility:hidden;
+   }
+   
+.tarjeta .cara{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: perspective(600px) rotateY('180deg') ;
+       
+   
+ 
+ 
+    }
+
+.tarjeta .frente{}
+      
+
+.tarjeta .dorso{
+    transform: perspective(600px) rotateY('0') ;
+    padding: 1px;
+    
 
 }
+.tarjeta .dorso img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    backface-visibility:hidden ;
+ 
+}
+.foto1{
+    width: 400px;
+    height: 300px;
+}
+.foto1d{
+    width: 400px;
+    height: 300px;
+}
+
+
+.tarjeta .frente img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ 
+}
+.tarjeta:hover.frente{
+
+    transform: perspective(600px rotateY(180deg));
+}
+
+.tarjeta:hover.dorso{
+
+    transform: perspective(600px rotateY(360deg));
+}
+
+
+.tituloc{
+    text-align: center;
+    margin: auto;
+    margin-top: 650px;
+    border: 3px solid black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    border-color: darkred;
+
+
+}
+
+

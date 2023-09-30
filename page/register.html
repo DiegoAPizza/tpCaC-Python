@@ -4,36 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrase</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="../style/styleRegister.css">
 </head>
 
 <body class="fondo_register">
 
-    <header class="header">
-        <a class="nav_link" href="./contactanos.html">Saber mas</a>
-        <a class="nav_link" href="../index.html">Inicio</a>
-        <a class="nav_link" href="./shop.html">Shop</a>
+    <div class="mmcontenedor">
 
+        <header class="header">
+            <a class="nav_link" href="./contactanos.html">Saber más</a>
+            <a class="nav_link" href="../index.html">Inicio</a>
+            <a class="nav_link" href="./shop.html">Shop</a>
+        </header>
 
-    </header>
-    
-    <main class="container_register ">
-        <form action="">
-            <div class="container_form">
-                <h1>register</h1>
-                <label for="nombre" class="label_form">Ingrese su Nombre</label>
-                <input type="text" name="nombre" class="input_nombre" required>
-                <label for="email" class="label_form">Ingrese su Email</label>
-                <input type="mail" name="email" class="input_email" required>
-                <label for="password" class="label_form">Contraseña</label>
-                <input type="password" class="input_password" required>
-                <input type="text">
-            </div>
-        </form>
-
-    </main>
-
+        <main class="container_register">
+            <form action="#">
+                <div class="container_form">
+                    <h1>Registro</h1>
+                    <label for="nombre" class="label_form">Ingrese su Nombre</label>
+                    <input type="text" name="nombre" class="input_nombre" required>
+                    <label for="email" class="label_form">Ingrese su Email</label>
+                    <input type="email" name="email" class="input_email" required>
+                    <label for="password" class="label_form">Contraseña</label>
+                    <input type="password" name="password" class="input_password" required>
+                    <button type="submit" class="submit_button">Registrarse</button>
+                </div>
+            </form>
+        </main>
+    </div>
 
 </body>
 
