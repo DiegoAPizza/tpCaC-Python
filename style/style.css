@@ -9,22 +9,24 @@ body{
     }
 
 /*Header*/
-.header {
-    background: #3498db;
-    height: 5em;
+.container_header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between ;
     align-items: center;
-    font-size: 1.3em;
+   background-color: rgb(93, 162, 24);
+}
+.nav_bar_aPage{
+    display: flex;
+    list-style: none;   
+    flex-direction: row;
     padding: 1em;
+    margin: .5em;
 }
-
-.nav_link {
-    color: white !important;
-    margin: 1.2em;
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
-
-
 
 /*Register*/
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
