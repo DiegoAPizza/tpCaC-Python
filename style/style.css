@@ -50,16 +50,14 @@ body{
 }
 
 .slogan{
-
-    font-family: 'Black Ops One', cursive;
     font-family: 'Staatliches', cursive;
     text-align: center;
     font-weight: 700px;
     font-style: oblique;
-    font-size:37px;
-    text-shadow: 0 0 7px #2dc010ef, 0 0 15px rgba(7, 247, 235, 0.993), 0 0 30px rgb(195, 9, 241);
-    letter-spacing: 0.1em;
-     word-spacing: 0.15em;
+     font-size:37px;
+     text-shadow: 0 0 7px #2dc010ef, 0 0 15px rgba(7, 247, 235, 0.993), 0 0 30px rgb(195, 9, 241);
+     letter-spacing: 0.1em;
+      word-spacing: 0.15em;
 }
 
 .mmcontendor{
@@ -234,12 +232,6 @@ i {
         padding: 3em;
     }
     
-
-
-
-
-<<<<<<< Updated upstream
-=======
 .head {
     background-color: #52a535;
     display: flex;
@@ -264,9 +256,3 @@ i {
     background-color: #83b6be;
 
 }
->>>>>>> Stashed changes
-
-;order-radius: 16px;
-background: #e0e0e0;
-box-shadow: inset -5px -5px 0px #b5b5b5,
-            inset 5px 5px 0px #ffffff;

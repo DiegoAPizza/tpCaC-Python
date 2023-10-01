@@ -12,6 +12,7 @@ body {
 
 .tarjetas {
 
+<<<<<<< Updated upstream
   background-color: black;
   width: 250px;
   height: 300px;
@@ -133,3 +134,116 @@ body {
   font-size: 50px;
 
 }
+=======
+    background-color:black;
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+    position: absolute;
+    top: 7.5%;
+    right:410px;
+  }
+        
+  .tarjeta {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+
+  }
+  .tarjetas:hover .tarjeta {
+    transform: rotateY(180deg);
+  }
+  .tarjetas .frente, .tarjetas .dorso {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  .tarjetas .dorso {
+    transform: rotateY(180deg);
+  }
+  .tarjetasb {
+    background-color:black;
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+    position: absolute;
+    top: 16.5%;
+    left: 1020px;
+    
+  }
+        
+  .tarjetab {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .tarjetasb:hover .tarjetab {
+    transform: rotateY(180deg);
+  }
+  .tarjetasb .frenteb, .tarjetasb .dorsob {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  .tarjetasb .dorsob {
+    transform: rotateY(180deg);
+  }
+
+  .tarjetasc {
+    background-color:black;
+    width: 250px;
+    height: 300px;
+    perspective: 1000px;
+    position: absolute;
+    top: 1%;
+   
+  }
+        
+  .tarjetac {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .tarjetasc:hover .tarjetac {
+    transform: rotateY(180deg);
+  }
+  .tarjetasc .frentec, .tarjetasc .dorsoc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  .tarjetasc .dorsoc {
+    transform: rotateY(180deg);
+  }
+
+  .titulo{
+    text-align: center;
+    margin: auto;
+    margin-top: 630px;
+    font-family: 'Pixelify Sans', cursive;
+    font-family: 'Staatliches', cursive;
+    font-size: 5em;
+    border-color:  linear-gradient(to top, blue, rgb(223, 7, 212), rgb(136, 223, 37));
+    text-shadow: 0 0 7px #c405ba, 0 0 15px rgb(229, 248, 57), 0 0 30px rgb(6, 242, 250);
+    
+}
+  
+>>>>>>> Stashed changes
