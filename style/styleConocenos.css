@@ -57,10 +57,6 @@ body{
     object-fit: cover;
     border-radius: 10px;
     transform: perspective(600px) rotateY('180deg') ;
-       
-   
- 
- 
     }
 
 .tarjeta .frente{}
@@ -69,9 +65,8 @@ body{
 .tarjeta .dorso{
     transform: perspective(600px) rotateY('0') ;
     padding: 1px;
-    
-
 }
+
 .tarjeta .dorso img{
     position: absolute;
     width: 100%;
@@ -81,27 +76,25 @@ body{
     flex-direction: column;
     justify-content:space-between;
     backface-visibility:hidden ;
- 
 }
+
 .foto1{
     width: 400px;
     height: 300px;
 }
+
 .foto1d{
     width: 400px;
     height: 300px;
 }
-
 
 .tarjeta .frente img{
     position: absolute;
     width: 100%;
     height: 100%;
     object-fit: cover;
- 
 }
 .tarjeta:hover.frente{
-
     transform: perspective(600px rotateY(180deg));
 }
 
@@ -110,17 +103,15 @@ body{
     transform: perspective(600px rotateY(360deg));
 }
 
-
 .tituloc{
     text-align: center;
     margin: auto;
     margin-top: 650px;
-    border: 3px solid black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Staatliches';
+     font-style: normal;
+    font-weight: 400;
     font-size: 50px;
-    border-color: darkred;
-
-
+    text-shadow: 0 0 7px #ce0ae7ef, 0 0 15px rgba(101, 250, 82, 0.993), 0 0 30px rgb(250, 246, 7);
 }
 
 
