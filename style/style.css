@@ -11,11 +11,22 @@ body{
 /*Header*/
 .container_header {
     
+    margin: auto;
     background-color: #333;
     padding: 10px;
+    height: 3em;
     display: flex;
-    justify-content: flex-end;
-   
+    justify-content: space-between ;
+    align-items: center;
+    font-size: 2em;
+}
+.nav_bar{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    color:#fff;
+    text-decoration: none ;
+    list-style: none;
 }
 
 
@@ -26,6 +37,9 @@ body{
     
 }
 
+.nav_bar_aPage:hover{
+    color: #06a500;
+}
 
 /*Register */
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
