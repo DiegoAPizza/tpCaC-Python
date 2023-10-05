@@ -28,6 +28,10 @@ body{
     text-decoration: none ;
     list-style: none;
 }
+.logo{
+    width: 2em;
+    height: 2em;
+}
 
 
 .nav_bar_aPage{
