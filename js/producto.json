@@ -1,0 +1,27 @@
+{
+    "productos": [
+        {
+          "id": 1,
+          "nombre": "Abeja",
+          "imagen": "../style/beeoftransp.jpg",
+          "precio": 2000,
+          "descripcion": "Este es el es la abeja"
+        },
+        {
+            "id":2,
+            "nombre":"Araña",
+            "imagen":"../style/beeoftransp.jpg",
+            "precio":2000,
+            "descripcion":"Este es el es la Araña ñañaña"
+        },
+        {
+            "id":3,
+            "nombre":"Producto 2",
+            "imagen":"../style/beeoftransp.jpg",
+            "precio":2000,
+            "descripcion":"Este es el es la abeja"
+        }
+    ]
+   
+
+}
