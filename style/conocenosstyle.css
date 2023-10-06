@@ -4,10 +4,21 @@
   box-sizing: border-box;
 }
 
+header{
+  display: flex;
+  min-height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  border: #fa6ef3 4px solid;
+}
+
+
 body {
   background-image: url(../style/img/conocenos\ editc.png);
   background-size: cover;
   background-attachment: fixed;
+
 }
 
 .tarjetas {
@@ -230,7 +241,7 @@ body {
     border: transparent;
 }
 
-.container_footer {
+.container_nav {
     
   margin: auto;
   background-color: #333;
@@ -252,6 +263,7 @@ body {
 .logo{
   width: 2em;
   height: 2em;
+  display: flex;
 }
 
 
@@ -266,4 +278,15 @@ body {
   color: #06a500;
 }
 
-
+@media (max-width 700px ) {
+  header {
+    flex-direction: column;
+  }
+  body{
+    max-width: fit-content;
+  }
+  .nav_bar{
+    padding: 10px 0px;
+  }
+  
+}

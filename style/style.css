@@ -6,6 +6,7 @@
 body{
    background-image: url(img/HD-wallpaper-minecraft-abstract-games-thumbnail.jpg);
    background-size: cover;
+ 
     }
 
 /*Header*/
@@ -123,10 +124,11 @@ Pendiente de modificacion*/
 }
 
 #contenedorcarru {
-    height: 280px;
-    overflow: hidden;
-   margin: auto;
    margin-top: 100px;
+    height: 280px;
+   overflow: hidden;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
    border-radius: 50px;
    box-shadow: inset -5px 5px 10px #2c2c2b,
    inset 5px -5px 10px #06a500;
@@ -139,12 +141,14 @@ Pendiente de modificacion*/
 .carru {
     height: 100%;
     position: relative;
-
+    flex-wrap: nowrap;
+   
 }
 
 .carru .items {
     height: 100%;
     margin: 0% auto;
+    flex: 1 0 auto;
 
 }
 
@@ -155,17 +159,20 @@ Pendiente de modificacion*/
     top: 0;
     display: flex;
     align-items: center;
-    color: white;
     justify-content: space-between;
     padding: 3em;
+    
 }
+
 
 a {
     text-decoration: none;
 }
 
 i {
-    color: black;
+    color: rgba(240, 10, 248, 0.74);
+   
+
 }
 
 .carrousel .puntos {
@@ -203,7 +210,7 @@ i {
 
 #off{
     display: flex;
-    width: 1000px;
+    width: 840px;
     height: 300px;
     margin: 0 auto;
     border: 2px solid #ffffff;
@@ -230,9 +237,14 @@ i {
 }
 .contenedorgp{
     margin-top: 6%;
-    border: 4px solid black;
-    height: 250px;
+    height: 350px;
+    border: 1.5px solid black;
+    box-shadow: inset 0 0 7px #e7f714, 0 0 15px rgb(4, 236, 205);
+    margin-left: 1em;
+    margin-right: 1em;
 }
+
+
     
 .head {
     background-color: #52a535;
