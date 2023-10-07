@@ -25,3 +25,35 @@ function restar() {
         etiqueta.innerText = valorActual;
     }
 }
+
+function mostrarProductos(datos){
+    const articulo=document.getElementById("producto");
+
+    const nombreProducto=document.getElementById("title");
+    nombreProducto.textContent=datos.nombre;
+
+    const precio=document.getElementById("precioProducto");
+    precio.textContent=datos.precio;
+
+    const descripcionProducto=document.getElementById("descripcionProducto");
+    descripcionProducto.textContent=datos.descripcion
+
+    const imagenP = document.getElementById("imagenDelProducto");
+    const contenedor = document.getElementById("contendorImg");
+    imagenP.src=datos.imagen;
+    contenedor.appendChild(imagenP);
+    articulo.appendChild(nombreProducto);
+    articulo.appendChild(precio);
+    articulo.appendChild(descripcionProducto);
+    articulo.appendChild(contenedor);
+}
+
+fetch("producto.json")
+    .then(response => response.json()) // Convertir la respuesta a JSON
+    .then(datosJSON => {
+        // Llamar a la función para mostrar los datos
+        mostrarProductos(datosJSON);
+    })
+    .catch(error => {
+        console.error("Error al cargar el archivo JSON:", error);
+    });

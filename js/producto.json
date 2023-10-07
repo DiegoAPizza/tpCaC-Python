@@ -1,27 +1,78 @@
-{
-    "productos": [
-        {
-          "id": 1,
-          "nombre": "Abeja",
-          "imagen": "../style/beeoftransp.jpg",
-          "precio": 2000,
-          "descripcion": "Este es el es la abeja"
-        },
-        {
-            "id":2,
-            "nombre":"Araña",
-            "imagen":"../style/beeoftransp.jpg",
-            "precio":2000,
-            "descripcion":"Este es el es la Araña ñañaña"
-        },
-        {
-            "id":3,
-            "nombre":"Producto 2",
-            "imagen":"../style/beeoftransp.jpg",
-            "precio":2000,
-            "descripcion":"Este es el es la abeja"
-        }
-    ]
-   
-
-}
+[
+    {
+        "id": 1,
+        "nombre": "Abeja",
+        "imagen": "../style/img/SHOP/beeoftransp.png",
+        "precio": 10,
+        "descripcion": "Este es el es la abeja"
+    },
+    {
+        "id": 2,
+        "nombre": "Araña Peluche",
+        "imagen": "../style/img/SHOP/beeoftransp.png",
+        "precio": 10,
+        "descripcion": "Este es el es la Araña ñañaña"
+    },
+    {
+        "id": 3,
+        "nombre": "Funko Pop Alex",
+        "imagen": "../style/img/funkoalex.jpg",
+        "precio": 10,
+        "descripcion": "Este es el es la abeja"
+    },
+    {
+        "id":4,
+        "nombre":"Fonko Pop esqueleto",
+        "imagen":"../style/img/SHOP/beeoftransp.png",
+        "precio":12,
+        "descripcion":"Esto es una descripcion de prueba."
+    },
+    {
+        "id":5,
+        "nombre":"Fonko Pop Crepper",
+        "imagen":"../style/img/imagenesMalas/creeperazul.jpg.jpg",
+        "precio":8,
+        "descripcion":"Esto es una descripcion de prueba."
+    },
+    {
+        "id":6,
+        "nombre":"Fonko Pop Gato",
+        "imagen":"../style/img/llama.png.jpg",
+        "precio":13,
+        "descripcion":"Esto es una descripcion de prueba."
+    },{
+        "id":7,
+        "nombre":"Perro peluche",
+        "imagen":"../style/img/lobito.png.jpg",
+        "precio":9,
+        "descripcion":"Esto es una descripcion de prueba."
+    },
+    {
+        "id":8,
+        "nombre":"Golem de Nieve Peluche",
+        "imagen":"../style/img/imagenesMalas/peluche.png.jpg",
+        "precio":12,
+        "descripcion":"Esto es una descripcion de prueba."
+    },
+    {
+        "id":9,
+        "nombre":"Pijama minecraf",
+        "imagen":"../style/img/imagenesMalas/Conjunto.jpg.jpg",
+        "precio":12,
+        "descripcion":"Esto es una descripcion de prueba."
+    },
+    {
+        "id":10,
+        "nombre":"Remera Gris de algodon",
+        "imagen":"../style/img/remeraNegra.png.jpg",
+        "precio":20,
+        "descripcion":"a"
+    },
+    {
+        "id":11,
+        "nombre":"Remera Negra de algodon",
+        "imagen":"../style/img/imagenesMalas/remera.jpg.jpg",
+        "precio":20,
+        "descripcion":"a"
+    }
+]
