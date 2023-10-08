@@ -5,8 +5,7 @@
 }
 body{
     background: rgb(38,66,57);
-    background: linear-gradient(0deg, rgba(38,66,57,1) 5%, rgba(177,210,194,1) 97%);
-
+    background: linear-gradient(0deg, rgba(38,66,57,1) 5%, rgba(158,205,131,1) 100%);
 }
 
 /*Header*/
