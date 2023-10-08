@@ -125,7 +125,7 @@ Pendiente de modificacion*/
 
 #contenedorcarru {
    margin-top: 100px;
-    height: 280px;
+    height: 270px;
    overflow: hidden;
     margin-left: 0.5em;
     margin-right: 0.5em;
@@ -149,7 +149,6 @@ Pendiente de modificacion*/
     height: 100%;
     margin: 0% auto;
     flex: 1 0 auto;
-
 }
 
 .carru .flechas {
@@ -161,9 +160,7 @@ Pendiente de modificacion*/
     align-items: center;
     justify-content: space-between;
     padding: 3em;
-    
 }
-
 
 a {
     text-decoration: none;
@@ -171,8 +168,6 @@ a {
 
 i {
     color: rgba(240, 10, 248, 0.74);
-   
-
 }
 
 .carrousel .puntos {
@@ -235,25 +230,47 @@ i {
 }
 
 .tpg{
- 
-}
-.titulogp{
- text-align: center;
- border: rgba(26, 24, 24, 0.144) 2px;
-    box-shadow: inset 0 0 12px #e7f714, 0 0 19px rgb(4, 236, 205);
-}
-article{
-    background-color:transparent;
-    height: 400px;
-
-}
-.contenedorgp{
-    margin-top: 10%;
-    height: 318px;
-    width: 990px;
+    margin-top: 7%;
     
-    margin-left: 1%;
-    margin-right: 1%;
+}
+
+.eg{
+    color: rgb(215, 15, 241);
+    border-color: white 0.5px;
+    text-shadow: 0 0 7px #2dc010ef, 0 0 15px rgba(7, 247, 235, 0.993), 0 0 30px rgb(195, 9, 241);
+}
+
+
+.titulogp {
+      font-family: 'Staatliches',cursive;
+      font-style: italic;
+      color: white;
+      text-align: center;
+      background-color: #333;
+      box-shadow: inset 0 0 12px #e7f714, 0 0 19px rgb(4, 236, 205);
+      border: #333 1em;
+      -webkit-text-stroke: 0.5px #080c01;
+      font-size: 35px;
+}
+
+
+article{
+    height: 500px;
+    width: 100%;
+    margin-top: 0%;
+    background-color: #333;
+    box-shadow: inset 0 0 12px #e7f714, 0 0 19px rgb(4, 236, 205);
+    border: #333 1em;  
+    margin-left: 0.5;
+    margin-right: 0.5;
+}
+
+.contenedorgp{
+    margin-top: 0%;
+    height: 318px;
+    width: 99%;
+    margin-left:0.5%;
+    margin-right: 0.5%;
     }
 
 .carruvideo{
@@ -272,24 +289,59 @@ article{
 .carruvideo .itemsv2 {
     height: 100%;
     flex: 1 0 auto;
+    
+}
+
+.tj{
+    padding: 0.25em;
+    margin:0.3%;
+    font-family: 'Staatliches', cursive;
+    color:rgba(7,233,37,1);
+    -webkit-text-stroke: 0.5px rgba(9,113,121,1);
+    margin-left: 15%;
+}
+
+.infojuego{
+   color: white;
+   margin-left: 1%;
+   font-size: 13px;
+   font-family: monospace;
+   word-spacing: 0.1em;
    
 }
 
-h3{
-    padding: 0.25em;
-    margin:1%;
-    font-family: 'Staatliches', cursive;
-    color: #e7f714;
-}
+button{
+    border: 0;
+    background-image: linear-gradient(150deg, rgb(19, 230, 230), rgba(9,113,121,1), rgba(7,233,37,1));
+    margin-top: 1.5%;
+    margin-left: 15%;
+    cursor: pointer;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-size: 12px ;
+    font-weight: bold;
+    display: flex;
+    padding: 4px;
+    transition: .3s;
+  }
+  
+  button span{
+      background-color: #111;
+      padding: 16px 24px;
+      border-radius: 8px;
+      transition: .3s;
+  }
 
-.compra{
-  height: 4rem;
-  width: 10rem;
-  margin-top: 0.5%;
-  margin-left: 15%;
-  background: #2c2c2b;
+  button span:hover{
+    background: none;
+  }
+ button:active{
+    transform: scale(0.9);
+ }
+  
 
-}
+
 .head {
     background-color: #52a535;
     display: flex;
