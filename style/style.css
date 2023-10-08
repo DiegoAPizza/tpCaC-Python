@@ -1,71 +1,373 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.logo{
-    width: 5em;
+body{
+    background: rgb(38,66,57);
+    background: linear-gradient(0deg, rgba(38,66,57,1) 5%, rgba(177,210,194,1) 97%);
+
+}
+
+/*Header*/
+.container_header {
+    
+    margin: auto;
+    background-color: #333;
+    padding: 10px;
     height: 5em;
-}
-.container_header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
+    align-items: center;
+    font-size: 1.2em;
 }
-.footer_container{
+.nav_bar{
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    color:#fff;
+    text-decoration: none ;
+    list-style: none;
+    
+}
+.logo{
+    width: 1.5em;
+    height: 1.5em;
+}
+
+
+.nav_bar_aPage{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    
+}
+
+.nav_bar_aPage:hover{
+    color: #06a500;
+}
+
+/*Register */
+/*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
+.fondo_register {
+    border: 3px solid black;
+    background: no-repeat url(./img/HD-wallpaper-video-game-minecraft2.jpg);
+    background-size: cover;
+    background-position: center top; 
+    backface-visibility: inherit;
+    background-attachment: fixed;
+
+}
+
+.titulo {
+   
+        text-align: center; 
+        margin: auto;
+        margin-top:12px;
+    
+}
+
+.slogan{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-weight: 700px;
+    font-style: oblique;
+    font-size:37px;
+    text-shadow: 10px 7px 8px rgb(78, 77, 77);
+    letter-spacing: 0.1em;
+    word-spacing: 0.15em;
+}
+
+.mmcontendor{
+   border: 4px solid black;
+}
+
+.container_register {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15em;
 }
-.footer_img{
-    height: 3em;
-    width: 3em;
+
+.container_form {
+    display: flex;
+    align-items: center;
+    background-color: #439b0c;
+    justify-content: center;
+    flex-direction: column;
+    border: 1em solid #439b0c;
+    margin: 1em;
+    padding: 1.5em;
 }
-.principal
-{
--webkit-text-stroke: 2px rgb(3, 3, 2);
-color: rgb(4, 231, 72);
-font-size: 55px;
+
+/*
+Pendiente de modificacion*/
+.label_form {
+    color: #9b260c;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.parra
-{
-font-family: fantasy;
-font-size: 20px;
+
+
+/*Carrusel de Gabri*/
+.principal {
+    -webkit-text-stroke: 2px rgb(3, 3, 2);
+    color: rgb(4, 231, 72);
+    font-size: 55px;
+    text-align: center;
 }
-.carrousel{
+
+.parra {
+    font-family: fantasy;
+    font-size: 20px;
+    text-align: center;
+}
+
+#contenedorcarru {
+   margin-top: 100px;
+    height: 270px;
+   overflow: hidden;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+   border-radius: 50px;
+   box-shadow: inset -5px 5px 10px #2c2c2b,
+   inset 5px -5px 10px #06a500;
+               position: sticky;
+               top: 0%;
+               text-align: center;
+               background: linear-gradient(309deg, rgba(4,1,54,1) 3%, rgba(9,113,121,1) 51%, rgba(7,233,37,1) 100%);
+}
+
+.carru {
+    height: 100%;
+    position: relative;
+    flex-wrap: nowrap;
+   
+}
+
+.carru .items {
+    height: 100%;
+    margin: 0% auto;
+    flex: 1 0 auto;
+}
+
+.carru .flechas {
+    height: 100%;
     width: 100%;
-    max-width: 120em ;
-    background-color: aquamarine;
-
-
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3em;
 }
-.carrousel .grande{
-width: 400%;
-background-color: beige;
 
-display: flex;
-flex-flow: row nowrap;
-justify-content: flex-start;
-text-align: center;
+a {
+    text-decoration: none;
 }
-.carrousel .img{
-width: calc(100%/4);
-background-color: rgb(245, 202, 10);
 
+i {
+    color: rgba(240, 10, 248, 0.74);
 }
-.carrousel .puntos{
-    width: 100% ;
+
+.carrousel .puntos {
+    width: 100%;
     background-color: black;
     padding: 1em;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     text-align: center;
-
 }
-.carrousel .punto{
+
+.carrousel .punto {
     width: 1em;
-    height:1em;
+    height: 1em;
     background-color: greenyellow;
     margin: 1em;
+}
+.offt{
+    border: 2px solid #ffffff;
+    
+    position: relative;
+    top: 53px;
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 30px;
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+    text-shadow: #333;
+    padding: 0.4em;
+    letter-spacing: 0.1em;
+    background-color:#2c2c2b ;
+    border-radius: 13px; 
+    text-align: center;  
+}
 
+#off{
+    display: flex;
+    width: 840px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    box-shadow: inset 0 0 7px #05e0bb, 0 0 15px rgb(0, 0, 0);
+}
+
+#off .ioff{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: contain;
+    opacity: .8;
+    transition:.5s ease;
+    padding: 0;
+    
+}
+
+#off .ioff:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.tpg{
+    margin-top: 7%;
+    
+}
+
+.eg{
+    color: rgb(253, 253, 253);
+    border-color: white 0.5px;
+    text-shadow: 0 0 7px #2dc010ef, 0 0 15px rgba(7, 247, 235, 0.993), 0 0 30px rgb(195, 9, 241);
+}
+
+
+.titulogp {
+      font-family: 'Staatliches',cursive;
+      font-style: italic;
+      color: white;
+      text-align: center;
+      background-color: #333;
+      box-shadow: inset 0 0 12px #14f7b3, 0 0 19px rgb(4, 236, 205);
+      border: #333 1em;
+      -webkit-text-stroke: 0.5px #080c01;
+      font-size: 35px;
+}
+
+
+article{
+    height: 500px;
+    width: 100%;
+    margin-top: 0%;
+    background-color: #333;
+    box-shadow: inset 0 0 12px #e7f714, 0 0 19px rgb(4, 236, 205);
+    border: #333 1em;  
+    margin-left: 0.5;
+    margin-right: 0.5;
+}
+
+.contenedorgp{
+    margin-top: 0%;
+    height: 318px;
+    width: 99%;
+    margin-left:0.5%;
+    margin-right: 0.5%;
+    }
+
+.carruvideo{
+    height: 100%;
+    position: relative;
+    display: flex;
+    padding: 0.25px;
+   
+}
+.carruvideo .itemsv {
+    height: 100%;
+    flex: 1 0 auto;
+   
+}
+
+.carruvideo .itemsv2 {
+    height: 100%;
+    flex: 1 0 auto;
+    
+}
+
+.tj{
+    padding: 0.25em;
+    margin:0.3%;
+    font-family: 'Staatliches', cursive;
+    color:rgba(7,233,37,1);
+    -webkit-text-stroke: 0.5px rgba(9,113,121,1);
+    margin-left: 15%;
+}
+
+.infojuego{
+   color: white;
+   margin-left: 1%;
+   font-size: 13px;
+   font-family: monospace;
+   word-spacing: 0.1em;
+   
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(150deg, rgb(19, 230, 230), rgba(9,113,121,1), rgba(7,233,37,1));
+    margin-top: 1.5%;
+    margin-left: 15%;
+    cursor: pointer;
+    color: #fff;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-size: 12px ;
+    font-weight: bold;
+    display: flex;
+    padding: 4px;
+    transition: .3s;
+  }
+  
+  button span{
+      background-color: #111;
+      padding: 16px 24px;
+      border-radius: 8px;
+      transition: .3s;
+  }
+
+  button span:hover{
+    background: none;
+  }
+ button:active{
+    transform: scale(0.9);
+ }
+  
+
+
+.head {
+    background-color: #52a535;
+    display: flex;
+    width: 100%;
+    height: 60px;
+}
+
+.navbar a {
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 15px;
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+
+}
+
+.cuerpo {
+    background-color: #83b6be;
+}
+
+.footer_container{
+    margin-top: 3%;
 }
