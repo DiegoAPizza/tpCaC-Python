@@ -5,16 +5,27 @@
   
 }
 
-header{
-  display: flex;
-  min-height: 50px;
-  justify-content: space-between;
-  align-items: center;
+.header {
   background-color: #333;
-
+  padding: 10px;
+  height: 3em;
+  align-items: center;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
 }
 
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
 
+.nav_link:hover{
+  text-shadow: -5px 4px black;
+  color: #06a500;
+  
+}
 body {
   background-image: url(../style/img/conocenos\ editc.png);
   background-size: cover;
@@ -188,7 +199,7 @@ body {
   color: #06a500;
 }
 
-@media (max-width 700px ) 
+@media (max-width:700px) 
 {
   header {
     flex-direction: column;

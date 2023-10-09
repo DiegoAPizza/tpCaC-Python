@@ -10,24 +10,35 @@ body{
     }
 
 /*Header*/
-.container_header {
-    
-    margin: auto;
+.header {
     background-color: #333;
     padding: 10px;
-    height: 2em;
-    display: flex;
-    justify-content: space-between ;
+    height: 3em;
     align-items: center;
-    font-size: 1.2em;
-}
-.nav_bar{
+    font-size: 2em;
     display: flex;
-    list-style-type: none;
-    flex-direction: row;
-    color:#fff;
-    text-decoration: none ;
-    list-style: none;
+    justify-content: space-between;
+}
+.imagen_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_logo a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.2em;
+}
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav_link:hover{
+    text-shadow: -5px 4px black;
+    color: #06a500;
+    
 }
 .logo{
     width: 1.5em;
