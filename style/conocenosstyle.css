@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 header{
@@ -10,7 +11,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background-color: #333;
-  border: #fa6ef3 4px solid;
+
 }
 
 
@@ -19,15 +20,15 @@ body {
   background-size: cover;
   background-attachment: fixed;
 
+
 }
 
 .tarjetas {
   width: 240px;
-  height: 250px;
+  height: 253px;
   perspective: 1000px;
   position: absolute;
-  top: 4%;
-  right: 300px;
+ 
 }
 
 .tarjeta {
@@ -37,6 +38,8 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin-left: 256%;
+  margin-top: 16%;
 }
 
 .tarjetas:hover .tarjeta {
@@ -60,13 +63,14 @@ body {
 .tarjetasb {
  
   width: 240px;
-  height: 250px;
+  height: 256px;
   perspective: 1000px;
   position: absolute;
-  top: 15%;
-  left: 761.2px;
- 
+  margin-top: 9%;
+  margin-left: 1022px;
 }
+ 
+
 
 .tarjetab {
   position: relative;
@@ -98,7 +102,7 @@ body {
 
 .tarjetasc {
   width: 250px;
-  height: 250px;
+  height: 248px;
   perspective: 1000px;
   position: absolute;
   top: 1%;
@@ -112,6 +116,7 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin-top: 17%;
 }
 
 .tarjetasc:hover .tarjetac {
@@ -142,6 +147,8 @@ body {
     border-color:  linear-gradient(to top, blue, rgb(161, 3, 153), rgb(136, 223, 37));
     text-shadow: 0 0 7px #fa6ef3, 0 0 15px rgb(232, 253, 40), 0 0 30px rgb(245, 235, 96);
     border: transparent;
+    margin-bottom: 0%;
+    margin-top: 45%;
 }
 
 .container_nav {
@@ -181,7 +188,8 @@ body {
   color: #06a500;
 }
 
-@media (max-width 700px ) {
+@media (max-width 700px ) 
+{
   header {
     flex-direction: column;
   }
@@ -191,5 +199,5 @@ body {
   .nav_bar{
     padding: 10px 0px;
   }
-  
+
 }
