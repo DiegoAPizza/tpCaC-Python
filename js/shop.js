@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(function (res) {
                 return res.json();
             })
-            .then(function (data) {
+            .then(data=> {
                 let container = document.getElementById("productoPrueba");
                 let html=""
-                data.forEach(function (producto) {
+                data.forEach(producto=> {
                     html += `
                     <article class="producto1">
                         <a href="./producto.html?id=${producto.id}">
