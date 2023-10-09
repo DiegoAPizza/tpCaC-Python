@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 header{
@@ -19,15 +20,15 @@ body {
   background-size: cover;
   background-attachment: fixed;
 
+
 }
 
 .tarjetas {
   width: 240px;
-  height: 250px;
+  height: 253px;
   perspective: 1000px;
   position: absolute;
-  top: 4%;
-  right: 300px;
+ 
 }
 
 .tarjeta {
@@ -37,6 +38,8 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin-left: 250%;
+  margin-top: 16%;
 }
 
 .tarjetas:hover .tarjeta {
@@ -60,13 +63,14 @@ body {
 .tarjetasb {
  
   width: 240px;
-  height: 250px;
+  height: 260px;
   perspective: 1000px;
   position: absolute;
-  top: 15%;
-  left: 761.2px;
- 
+  margin-top: 9.4%;
+  margin-left: 999px;
 }
+ 
+
 
 .tarjetab {
   position: relative;
@@ -98,7 +102,7 @@ body {
 
 .tarjetasc {
   width: 250px;
-  height: 250px;
+  height: 248px;
   perspective: 1000px;
   position: absolute;
   top: 1%;
@@ -112,6 +116,7 @@ body {
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  margin-top: 16.5%;
 }
 
 .tarjetasc:hover .tarjetac {
