@@ -52,15 +52,15 @@ body{
 .imagen1{
     margin: 20px;
     padding: 10px;
-    height: 15em;
-    width: 15em;
+    height: 17em;
+    width: 18em;
     
 }
 
 .imagenes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 5em;
     justify-items: center;
     align-content: stretch;
     justify-content: center;
@@ -70,10 +70,9 @@ body{
 .producto1{
     background-color: white;
     width: 18em;
-    margin: 15px;
+    margin: .5em;
     text-align: center;
-    
-    border-radius: 6px;
+    border-radius: 3em;
 }
 
 .producto1:hover{

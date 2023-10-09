@@ -4,75 +4,175 @@
         "nombre": "Abeja",
         "imagen": "../style/img/SHOP/beeoftransp.png",
         "precio": 10,
-        "descripcion": "Este es el es la abeja"
+        "descripcion": "Este es el es la abeja",
+        "stock":12
     },
     {
         "id": 2,
         "nombre": "Araña Peluche",
-        "imagen": "../style/img/SHOP/beeoftransp.png",
+        "imagen": "../style/img/SHOP/araña-removebg-preview.png",
         "precio": 10,
-        "descripcion": "Este es el es la Araña ñañaña"
+        "descripcion": "Este es el es la Araña ñañaña",
+        "stock":12
     },
     {
         "id": 3,
         "nombre": "Funko Pop Alex",
-        "imagen": "../style/img/funkoalex.jpg",
+        "imagen": "../style/img/SHOP/funkoalex-removebg-preview.png",
         "precio": 10,
-        "descripcion": "Este es el es la abeja"
+        "descripcion": "Este es el es la abeja",
+        "stock":12
     },
     {
         "id":4,
         "nombre":"Fonko Pop esqueleto",
-        "imagen":"../style/img/SHOP/beeoftransp.png",
+        "imagen":"../style/img/SHOP/PELUCHE_ESQUELETO_MM.png",
         "precio":12,
-        "descripcion":"Esto es una descripcion de prueba."
+        "descripcion":"Esto es una descripcion de prueba.",
+        "stock":12
     },
     {
         "id":5,
         "nombre":"Fonko Pop Crepper",
-        "imagen":"../style/img/imagenesMalas/creeperazul.jpg.jpg",
+        "imagen":"../style/img/SHOP/popcreeptranso.png",
         "precio":8,
-        "descripcion":"Esto es una descripcion de prueba."
+        "descripcion":"Esto es una descripcion de prueba.",
+        "stock":12
     },
     {
         "id":6,
         "nombre":"Fonko Pop Gato",
-        "imagen":"../style/img/llama.png.jpg",
+        "imagen":"../style/img/SHOP/popgatitetransp.png",
         "precio":13,
-        "descripcion":"Esto es una descripcion de prueba."
+        "descripcion":"Esto es una descripcion de prueba.",
+        "stock":12
     },{
         "id":7,
         "nombre":"Perro peluche",
-        "imagen":"../style/img/lobito.png.jpg",
+        "imagen":"../style/img/SHOP/PERRITO_MM.png",
         "precio":9,
-        "descripcion":"Esto es una descripcion de prueba."
+        "descripcion":"Esto es una descripcion de prueba.",
+        "stock":12
     },
     {
         "id":8,
-        "nombre":"Golem de Nieve Peluche",
-        "imagen":"../style/img/imagenesMalas/peluche.png.jpg",
+        "nombre":"Buzo de Creeper",
+        "imagen":"../style/img/SHOP/BUZO_CREEPER_MM.png",
         "precio":12,
-        "descripcion":"Esto es una descripcion de prueba."
+        "descripcion":"Esto es una descripcion de prueba.",
+        "stock":12
     },
     {
         "id":9,
-        "nombre":"Pijama minecraf",
-        "imagen":"../style/img/imagenesMalas/Conjunto.jpg.jpg",
+        "nombre":"Minecraft Dungeons PC",
+        "imagen":"../style/img/SHOP/DUNGEONS.png",
         "precio":12,
-        "descripcion":"Esto es una descripcion de prueba."
+        "descripcion":"Esto es una descripcion de prueba.",
+        "stock":12
     },
     {
         "id":10,
         "nombre":"Remera Gris de algodon",
-        "imagen":"../style/img/remeraNegra.png.jpg",
+        "imagen":"../style/img/SHOP/REMERA_MINE_MM.png",
         "precio":20,
-        "descripcion":"a"
+        "descripcion":"a",
+        "stock":12
     },
     {
         "id":11,
         "nombre":"Remera Negra de algodon",
-        "imagen":"../style/img/imagenesMalas/remera.jpg.jpg",
+        "imagen":"../style/img/SHOP/remeoftransp.png",
         "precio":20,
-        "descripcion":"a"
+        "descripcion":"a",
+        "stock":10
+    },
+    {
+        "id":12,
+        "nombre":"Minecraft Education PC",
+        "imagen":"../style/img/SHOP/MINECRAFT_EDUCATION.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10
+    },
+    {
+        "id":13,
+        "nombre":"Minecraft Java PC",
+        "imagen":"../style/img/SHOP/MINECRAFT.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10
+    },
+    {
+        "id":14,
+        "nombre":"Mochila Minecraft",
+        "imagen":"../style/img/SHOP/MOCHILA_MM.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10
+    },
+    {
+        "id":15,
+        "nombre":"Llama",
+        "imagen":"../style/img/SHOP/LLAMA_MM.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10
+    },
+    {
+        "id":16,
+        "nombre":"Muñeco de Nieve",
+        "imagen":"../style/img/SHOP/muñecoSinFondo.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
+    },
+    {
+        "id":17,
+        "nombre":"Conjunto minecraft",
+        "imagen":"../style/img/SHOP/pijama2of.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
+    },
+    {
+        "id":18,
+        "nombre":"Minecraft Realms",
+        "imagen":"../style/img/SHOP/REALMS_MINECRAFT.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
+    },
+    {
+        "id":19,
+        "nombre":"Lamparas de Lava",
+        "imagen":"../style/img/SHOP/LAMPARA_LAVA_DIA_NOCHE_MM.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
+    },
+    {
+        "id":20,
+        "nombre":"Minecraft Story Ps4",
+        "imagen":"../style/img/SHOP/JUEGO_F_MINECRAFT_STORY_PS4.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
+    },
+    {
+        "id":21,
+        "nombre":"Minecraft Story Ps4",
+        "imagen":"../style/img/SHOP/JUEFO_F_MINECRAFT_PS4.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
+    },
+    {
+        "id":22,
+        "nombre":"Minecraft Legends PC",
+        "imagen":"../style/img/SHOP/LEGENDS.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
     }
+    
 ]

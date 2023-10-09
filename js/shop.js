@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     html += `
                     <article class="producto1">
                         <a href="./producto.html?id=${producto.id}">
-                                <img src=${producto.imagen} class="imagen1">
+                                <img src=${producto.imagen} class="imagen1 mejoradorDeImagen">
                         </a>
                             <h4 class="nombreProducto">${producto.nombre}</h4>
                             <h5 class="precioProducto">${producto.precio}</h5>
