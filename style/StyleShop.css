@@ -18,6 +18,17 @@
     justify-content: space-between;
 }
 
+.nav_link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.nav_link:hover{
+    text-shadow: -5px 4px black;
+    color: #06a500;
+    
+}
 
 body{
     background: rgb(131,58,180);
@@ -32,10 +43,14 @@ body{
     
 }
 
-.imagenes{
-    justify-content: space-around;
+.imagenes {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-content: stretch;
+    justify-content: center;
+    align-items: center;
 }
 
 .producto1{
