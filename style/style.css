@@ -63,7 +63,6 @@ body{
         text-align: center; 
         margin: auto;
         margin-top:12px;
-    
 }
 
 .slogan{
@@ -110,18 +109,6 @@ Pendiente de modificacion*/
 
 
 /*Carrusel de Gabri*/
-.principal {
-    -webkit-text-stroke: 2px rgb(3, 3, 2);
-    color: rgb(4, 231, 72);
-    font-size: 55px;
-    text-align: center;
-}
-
-.parra {
-    font-family: fantasy;
-    font-size: 20px;
-    text-align: center;
-}
 
 #contenedorcarru {
    margin-top: 100px;
@@ -134,18 +121,23 @@ Pendiente de modificacion*/
    top: 0%;
    text-align: center;
    background: linear-gradient(309deg, rgba(4,1,54,1) 3%, rgba(9,113,121,1) 51%, rgba(7,233,37,1) 100%);
+   margin-left: 1%;
+   margin-right: 1%;
+   
 }
 
 .carru {
     height: 100%;
+    width: 100%;
     position: relative;
+    
    
 }
 
 .carru .items {
     height: 100%;
-    flex-wrap: wrap;
-
+    width: 100%;
+    flex-flow: wrap;
 }
 
 .carru .flechas {
@@ -157,7 +149,6 @@ Pendiente de modificacion*/
     align-items: center;
     justify-content: space-between;
     padding: 3em;
-   
 }
 
 a {
