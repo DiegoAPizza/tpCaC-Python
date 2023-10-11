@@ -5,6 +5,25 @@
 
 }
 
+.logo{
+    width: 2em;
+    height: 2em;
+}
+.imagen_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_logo a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.2em;
+}
+.imagen_logo a:hover{
+    text-shadow: -5px 4px black;
+    color: #06a500;
+    
+}
 .mmcontenedor {
     max-width: 1200px;
     margin: 0 auto;

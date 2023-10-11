@@ -173,5 +173,13 @@
         "precio":50,
         "descripcion":"a",
         "stock":10 
+    },
+    {
+        "id":23,
+        "nombre":"MInecraft para boludos Legends PC",
+        "imagen":"../style/img/SHOP/LEGENDS.png",
+        "precio":50,
+        "descripcion":"a",
+        "stock":10 
     }
 ]
