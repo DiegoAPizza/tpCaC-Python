@@ -32,7 +32,7 @@ body{
     
 }
 .Formulario{
-    width: 600px;
+    max-width: 600px;
     background: rgb(29, 29, 90);
     padding: 50px;
     margin: auto;
@@ -63,7 +63,6 @@ body{
 .form-control:hover{
     border: 3px solid rgb(43, 43, 151);
 }
-
 h2{
     color: white;
     background:rgb(29, 29, 90) ;
@@ -136,4 +135,8 @@ margin-right: 10px;
 }
 .navbar a:hover{
     text-decoration: underline;
+}
+.logo{
+    width: 1.5em;
+    height: 1.5em;
 }
