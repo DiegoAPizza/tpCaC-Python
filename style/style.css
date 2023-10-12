@@ -8,7 +8,9 @@ body{
    background-size: cover;
     }
   
-
+.chiquito{
+    display:none;
+}
 /*Header*/
 .header {
     background-color: #333;
@@ -85,7 +87,7 @@ body{
     justify-content: space-around;
     background-color: black;
     border-radius: 0.25em;
-    display:
+
 }
 
 .hammenu .lineas {
@@ -643,4 +645,15 @@ border-top: 1px solid black;
       margin-left: 65%;
       top: -2%;
       
+}
+
+/*AGREGAR MEDIA*/
+
+@media ( max-width:650px) {
+    .header{
+        display: none;
+    }
+    .chiquito{
+        display: block;
+    }
 }

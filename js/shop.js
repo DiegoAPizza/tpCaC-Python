@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                                 <img src=${producto.imagen} class="imagen1 mejoradorDeImagen">
                         </a>
                             <h4 class="nombreProducto">${producto.nombre}</h4>
-                            <h5 class="precioProducto">${producto.precio}</h5>
+                            <h5 class="precioProducto">$ ${producto.precio} Usd</h5>
                     </article>
                 `;
                 });
