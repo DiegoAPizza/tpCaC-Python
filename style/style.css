@@ -6,8 +6,8 @@
 body{
    background-image: url(img/HD-wallpaper-minecraft-abstract-games-thumbnail.jpg);
    background-size: cover;
- 
     }
+  
 
 /*Header*/
 .header {
@@ -34,7 +34,7 @@ body{
     background-color: black;
     border-radius: 0.25em;
     transform: translateX(-10%);
-    transition: transform 100ms ease-in-out, opacity 200ms;
+    transition: transform 80ms ease-in-out, opacity 180ms;
     display:none
 }
 
@@ -617,5 +617,30 @@ button{
 }
 
 .footer_container{
-    margin-top: 3%;
+    margin-top: 15%;
+    text-align: center;
+    border: #cb59ff;
+    bottom: 0px;
+}
+.footer_container .padref{
+    border: #0576e0;
+}
+.footer_container .lineaizq{
+border-top: 1px solid black;
+  height: 2px;
+  max-width: 400px;
+  padding: 0;
+  margin: 2%;
+  margin-top: 10%;
+    
+}
+
+.footer_container .lineader{
+      border-top: 1px solid black;
+      height: 2px;
+      max-width: 400px;
+      padding: 0;
+      margin-left: 65%;
+      top: -2%;
+      
 }

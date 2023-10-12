@@ -30,6 +30,14 @@ body {
   background-image: url(../style/img/conocenos\ editc.png);
   background-size: cover;
   background-attachment: fixed;
+   
+}
+img{
+   position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
 }
 
 .tarjetas {
