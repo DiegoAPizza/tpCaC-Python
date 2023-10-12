@@ -19,6 +19,134 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+.menuitems {
+    text-align: center;
+    position: absolute;
+    padding: 5rem;
+    margin-top: -6rem;
+    margin-left: -1rem;
+    top: 13rem;
+    left: 7.5rem;
+    list-style: none;
+    opacity: 0;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 0.25em;
+    transform: translateX(-10%);
+    transition: transform 100ms ease-in-out, opacity 200ms;
+    display:none
+}
+
+.menuitems li{
+    color: white;
+    padding: 0.5rem;
+}
+
+.menuitems li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menuitems li a:hover{
+    color:#06a500;
+}
+
+.check {
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+    height: 3rem;
+    width: 3rem;
+    opacity: 0;
+    z-index: 3;
+}
+
+.check:hover {
+    cursor: pointer;
+}
+
+.check:checked~.menuitems {
+    display: block;
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.hammenu {
+    height: 3rem;
+    width: 3rem;
+    position: absolute;
+    top: 8rem;
+    left: 8rem;
+    padding: 0.5rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    border-radius: 0.25em;
+    display:
+}
+
+.hammenu .lineas {
+    background-color: white;
+    border-radius: 1em;
+    width: 2rem;
+    height: 0.25rem;
+
+}
+
+.hammenu .linea1 {
+    transform-origin: 50% 400%;
+    transition: transform 100ms ease-in-out;
+}
+.hammenu .linea2 {
+    transform-origin: 90% -120%;
+    transition: transform 100ms ease-in-out; 
+}
+  
+.hammenu .linea3 {
+    transform-origin: 70% 70%;
+    transition: transform 100ms ease-in-out;
+  
+}
+.hammenu .linea4 {
+    transform-origin: 30% -80%;
+    transition: transform 100ms ease-in-out;
+}
+
+.check:checked~.hammenu .linea1 {
+    display: block;
+    transform: rotate(270deg);
+}
+
+.check:checked~.hammenu .linea2 {
+     display: block;
+    transform: rotate(270deg);
+}
+
+.check:checked~.hammenu .linea3 {
+    display: block;
+    transform: rotate(120deg);
+
+}
+.check:checked~.hammenu .linea4 {
+    display: block;
+  transform: rotate(240deg);
+}
+
+.hammenu .span{
+    height: 2px;
+    width: 100%;
+    margin-top: 6px;
+    transform-origin: 0px 100%;
+    display: block;
+    background-color: black;
+    border-radius: 10em;
+  transition:all 300ms;
+}
+
+
 .imagen_logo{
     display: flex;
     justify-content: center;
