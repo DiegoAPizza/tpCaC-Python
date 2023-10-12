@@ -1,110 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style/styleForm.css">
-    <title>Compra</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/styleForm.css">
+  <title>Compra</title>
 </head>
+
 <body>
 
   <header class="header">
 
     <div class="imagen_logo">
-        <picture>
-            <a href="../index.html"><img class="logo" src="/style/img/creeper icon.png" alt="Logo_web_site">
-        </picture>
-        <p class="letra">Modo minecraft</p></a>
+      <picture>
+        <a href="../index.html"><img class="logo" src="/style/img/creeper icon.png" alt="Logo_web_site">
+      </picture>
+      <p class="letra">Modo minecraft</p></a>
     </div>
 
     <nav>
-        <a class="nav_link" href="./conocenos.html">Saber más</a>
-        <a class="nav_link" href="../index.html">Inicio</a>
-        <a class="nav_link" href="./shop.html">Shop</a>
+      <a class="nav_link" href="./conocenos.html">Saber más</a>
+      <a class="nav_link" href="../index.html">Inicio</a>
+      <a class="nav_link" href="./shop.html">Shop</a>
     </nav>
 
-</header>
+  </header>
 
-    <form class="Formulario">
-      <h2>Formulario de Compra</h2>
+  <form id="Form" class="Formulario">
+    <h2>Formulario de Compra</h2>
+
+    <div class="form-contened">
+
+      <label for="inputAddress" class="form-label">Direccion</label>
+      <input type="text" class="form-control" id="direccion" placeholder="1234 Main St">
+      <label for="inputCity" class="form-label">Ciudad</label>
+      <input type="text" class="form-control" id="inputCity" placeholder="Cidad de BsAs">
+      <label for="inputState" class="form-label">Estado</label>
+      <select id="inputState" class="form-select">
+        <option selected value="caba">CABA</option>
+        <option value="amba">AMBA</option>
+        <option value="otro">Otros</option>
+      </select>
+      <br><br>
+      <label for="inputZip" class="form-label">Codigo Postal</label>
+      <input type="text" class="form-control" id="inputZip" placeholder="C1804">
+      <legend class="Tarjeta">Tarjeta</legend>
+      <input class="form-check-input" type="radio" name="tarjeta-modo" value="option1" checked>
+      <label class="form-check-label" for="Tarjeta1">
+        Visa
+      </label>
+      <input class="form-check-input" type="radio" name="tarjeta-modo" value="option2">
+      <label class="form-check-label" for="Tarjeta2">
+        Mastercard
+      </label>
+      <legend class="Pago">Pago</legend>
+      <input class="form-check-input" type="radio" name="modo-pago" value="option1" checked>
+      <label class="form-check-label" for="Pagos1">
+        Debito
+      </label>
+      <input class="form-check-input" type="radio" name="modo-pago" value="option2">
+      <label class="form-check-label" for="Pagos2">
+        Credito
+      </label>
+      <br><br>
+      <label for="inputZip" class="form-label">Numero de tarjeta</label>
+      <input type="text" class="form-control" id="inputCard" placeholder="0000*************">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Estoy de acuerdo con los terminos y condiciones
+      </label>
+
+      <br><br>
+      <button type="submit" id="btnRegistrar"  class="btn-comprar">Comprar</button>
     
-      <div class="form-contened">
-        
-          <label for="inputAddress" class="form-label">Direccion</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-        
-        
-          <label for="inputCity" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="inputCity" placeholder="Cidad de BsAs">
-        
-        
-          <label for="inputState" class="form-label">Estado</label>
-          <select id="inputState" class="form-select">
-            <option selected value="caba">CABA</option>
-            <option value="amba">AMBA</option>
-            <option value="otro">Otros</option>
-          </select>
-          <br><br>
-        
-          <label for="inputZip" class="form-label">Codigo Postal</label>
-          <input type="text" class="form-control" id="inputZip" placeholder="C1804">
-        
-      
-        
-          <legend class="Tarjeta">Tarjeta</legend>
-          
-        
-          <input class="form-check-input" type="radio" name="tarjeta-modo" value="option1" checked>
-          <label class="form-check-label" for="Tarjeta1">
-             Visa
-          </label>
-        
-        
-          <input class="form-check-input" type="radio" name="tarjeta-modo" value="option2">
-          <label class="form-check-label" for="Tarjeta2">
-          Mastercard
-          </label>
-        
-          </label>
-          
+      <p><a href="#">Ya tengo cuenta?</a></p>
 
-        
-          <legend class="Pago">Pago</legend>
-          
-        
-          <input class="form-check-input" type="radio" name="modo-pago" value="option1" checked>
-          <label class="form-check-label" for="Pagos1">
-           Debito
-          </label>
-        
-        
-          <input class="form-check-input" type="radio" name="modo-pago"  value="option2">
-          <label class="form-check-label" for="Pagos2">
-            Credito
-          </label>
-          <br><br>
-          <label for="inputZip" class="form-label">Numero de tarjeta</label>
-          <input type="text" class="form-control" id="inputCard" placeholder="0000*************">
+    </div>
 
 
+  </form>
 
+  <script src="../js/FormCompra.js"></script>
 
-          <input class="form-check-input" type="checkbox" id="gridCheck">
-          <label class="form-check-label" for="gridCheck">
-            Estoy de acuerdo con los terminos y condiciones
-          </label>
-
-          <br><br>
-          <button type="submit" class=" btn-comprar">Comprar</button>
-          
-          <p><a href="#">Ya tengo cuenta?</a></p>
-
-        </div>
-
-
-      </form>
-
-  <script src="/js/FormCompra.js"></script>
-   
 </body>
+
 </html>
