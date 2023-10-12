@@ -616,31 +616,63 @@ button{
     background-color: #83b6be;
 }
 
-.footer_container{
-    margin-top: 15%;
-    text-align: center;
-    border: #cb59ff;
-    bottom: 0px;
-}
-.footer_container .padref{
-    border: #0576e0;
-}
-.footer_container .lineaizq{
-border-top: 1px solid black;
-  height: 2px;
-  max-width: 400px;
-  padding: 0;
-  margin: 2%;
-  margin-top: 10%;
+#pf{
+    border:5px solid pink;
+    display:flex;
+  }
+  .contefoo{
+    border: 3px solid black;
+    height: 500px;
+    width:100%;
+    margin-top:8%
+  }
+  .contefoo .contelineas{
+    border:2px solid white;
+     height: 200px;
+    width: 99%;
+    display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+    margin-top:3%;
+  
+  }
+  .contelineas .l1{
+  border:1px solid black;
+     height: 0px;
+      width: 30%;
+    margin-left:2%;
+    margin-top:3%;
+      }
+  .contelineas .l2{
+    border:1px solid black;
+     height: 0px;
+      width: 30%;
+    margin-left:68%;
+    margin-top:0%;
     
-}
+  }
+  .contelineas .l3{
+    height: 70px;
+      width: 32%;;
+    margin-left:33%;
+    background: url(/style/img/fimg2.png);
+    background-size: cover;
+    align-items: center;
+    margin-top: -4%;
+    padding: 1%;
+  }
+  .l3.fi{
+   
+    
+    
+    
 
-.footer_container .lineader{
-      border-top: 1px solid black;
-      height: 2px;
-      max-width: 400px;
-      padding: 0;
-      margin-left: 65%;
-      top: -2%;
-      
-}
+   
+    
+
+  }
+  
+  
