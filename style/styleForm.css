@@ -19,6 +19,25 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.logo{
+    width: 2em;
+    height: 2em;
+}
+.imagen_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen_logo a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.2em;
+}
+.imagen_logo a:hover{
+    text-shadow: -5px 4px black;
+    color: #06a500;
+    
+}
 
 .nav_link {
     color: #fff;
@@ -53,7 +72,7 @@ body{
 .form-control{
     height: 25px;
     width: 100%;
-    background: rgb(29, 29, 90);
+    background: white;
     margin-bottom: 10px;
     margin-top: 10px;
     border: 2px solid rgb(43, 43, 151);
