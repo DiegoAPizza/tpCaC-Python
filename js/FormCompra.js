@@ -1,17 +1,19 @@
 
 function validarFormulario() {
    
-    var direccion = document.getElementById('direccion').value.trim();
-    var ciudad = document.getElementById('inputCity').value.trim();
-    var codigoPostal = document.getElementById('inputZip').value.trim();
-  
-    
-    if (direccion === '' || ciudad === '' || codigoPostal === '') {
-    
-    alert('Por favor, completa todos los campos: Dirección, Ciudad y Código Postal.');
-      return false; // Evitar que se envíe el formulario
+    const direccion = document.getElementById('direccion').value.trim();
+    const ciudad = document.getElementById('inputCity').value.trim();
+    const codigoPostal = document.getElementById('inputZip').value.trim();
+    const tarjetaDeCredito=document.getElementById("inputCard").value.trim();
+    if(((direccion==null)||(direccion==""))&&(ciudad==null)||(ciudad=="")&&(codigoPostal==null)||(codigoPostal=="")){
+      console.log("No se ingreso Correctamente los Datos")
+      alert("Porfavor Volver a Ingresar Los datos se encuentran Vacio")
     }
-    else
-    alert("Formulario completado correctamente")
-    return true;
+    const expresionRegular = /[a-zA-Z]/;
+    if(!expresionRegular.test(tarjetaDeCredito)){
+      alert("No se admiten Letras en la Tarjeta de Credito")
+    }
+    else{
+      console.log("Se ingreso Correctamente")
+    }
   }
