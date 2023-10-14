@@ -30,6 +30,7 @@ body {
   background-image: url(../style/img/conocenos\ editc.png);
   background-size: cover;
   background-attachment: fixed;
+  z-index: 1;
    
 }
 img{
