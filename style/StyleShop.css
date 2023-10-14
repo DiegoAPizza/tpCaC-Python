@@ -45,22 +45,22 @@
 }
 
 body{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 30%, rgba(188,121,210,1) 46%, rgba(100,68,135,1) 82%);
+    background: rgb(47,34,4);
+    background: linear-gradient(0deg, rgba(47,34,4,1) 5%, rgba(58,101,54,1) 100%);
 } 
 
 .imagen1{
     margin: 20px;
     padding: 10px;
     height: 17em;
-    width: 18em;
+    width: 15em;
     
 }
 
 .imagenes {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5em;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
     justify-items: center;
     align-content: stretch;
     justify-content: center;
@@ -68,14 +68,27 @@ body{
 }
 
 .producto1{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     width: 18em;
     margin: .5em;
     text-align: center;
     border-radius: .5em;
+    border: 3px solid black;
+    margin-bottom: 25px;
 }
 
 .producto1:hover{
-    box-shadow: 10px 7px 8px rgb(56, 19, 90);
-    border: 2px solid black; 
+    box-shadow: 12px 9px 10px 6px rgb(6, 7, 4);
+   
+}
+.nombreProducto{
+    background-color: #e4e4e4;
+    border-top: 1px solid rgb(131, 125, 125);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+
+}
+.precioProducto{
+    background-color:#e4e4e4 ;
+    font-family: Arial, Helvetica, sans-serif;
 }
