@@ -4,8 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: rgb(38,66,57);
-    background: linear-gradient(0deg, rgba(38,66,57,1) 5%, rgba(158,205,131,1) 100%);
+    background:url(/style/img/SHOP/bloque-minecraf-fondo.png) ;
 }
 
 
@@ -90,7 +89,7 @@ body{
 }
 /*Btns*/
 .btn-compra {
-    background:#1dc215;
+    background:#1b2913;
     color: #fff !important;
     border-radius: .4rem;
     padding:.9rem  1.4rem!important;
@@ -98,7 +97,7 @@ body{
 }
 
 .btn-selecionDeCantidad {
-    background:#d5640e;
+    background:#374939;
     color: #fff !important;
     border-radius: .4rem;
     padding:.8rem   1.7rem!important;;
