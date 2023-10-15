@@ -4,167 +4,162 @@
         "nombre": "Abeja",
         "imagen": "../style/img/SHOP/bee240.png",
         "precio": 10,
-        "descripcion": "Este es el es la abeja es muy PUTO y socialistaaa",
-        "stock":12
+        "descripcion": "Este es el es la abeja es muy PUTO y socialistaaa"
+        
     },
     {
         "id": 2,
         "nombre": "Araña Peluche",
         "imagen": "../style/img/SHOP/araña_240.png",
         "precio": 10,
-        "descripcion": "Este es el es la Araña ñañaña",
-        "stock":12
+        "descripcion": "Este es el es la Araña ñañaña"
+        
     },
     {
         "id": 3,
         "nombre": "Funko Pop Alex",
         "imagen": "../style/img/SHOP/funkoalex_240.png",
         "precio": 10,
-        "descripcion": "Este es el es la abeja",
-        "stock":12
+        "descripcion": "Minecraft es un videojuego de construcción de tipo «mundo abierto» o en inglés sandbox creado originalmente por el sueco Markus Persson, que creo posteriormente Mojang Studios."
+        
     },
     {
         "id":4,
         "nombre":"Fonko Pop esqueleto",
         "imagen":"../style/img/SHOP/PELUCHE_ESQUELETO_MM240.png",
         "precio":12,
-        "descripcion":"Esto es una descripcion de prueba.",
-        "stock":12
-    },
+        "descripcion":"Esto es una descripcion de prueba."
+    }, 
     {
         "id":5,
         "nombre":"Fonko Pop Crepper",
         "imagen":"../style/img/SHOP/popcreep240.png",
         "precio":8,
-        "descripcion":"Esto es una descripcion de prueba.",
-        "stock":12
+        "descripcion":"Esto es una descripcion de prueba."
+        
     },
     {
         "id":6,
         "nombre":"Fonko Pop Gato",
         "imagen":"../style/img/SHOP/popgatite240.png",
         "precio":13,
-        "descripcion":"Esto es una descripcion de prueba.",
-        "stock":12
+        "descripcion":"Esto es una descripcion de prueba."
+        
     },
     {
         "id":7,
         "nombre":"Perro peluche",
         "imagen":"../style/img/SHOP/PERRITO_MM240.png",
         "precio":9,
-        "descripcion":"Esto es una descripcion de prueba.",
-        "stock":12
+        "descripcion":"Esto es una descripcion de prueba."
+        
     },
     {
         "id":8,
         "nombre":"Buzo de Creeper",
         "imagen":"../style/img/SHOP/buzo240.png",
         "precio":12,
-        "descripcion":"Esto es una descripcion de prueba.",
-        "stock":12
+        "descripcion":"Esto es una descripcion de prueba."
+        
     },
     {
         "id":9,
         "nombre":"Minecraft Dungeons PC",
         "imagen":"../style/img/SHOP/DUNGEONS240.png",
         "precio":12,
-        "descripcion":"Esto es una descripcion de prueba.",
-        "stock":12
+        "descripcion":"Esto es una descripcion de prueba."
+        
     },
     {
         "id":10,
         "nombre":"Remera Gris de algodon",
         "imagen":"../style/img/SHOP/REMERA_MINE240.png",
         "precio":20,
-        "descripcion":"a",
-        "stock":12
+        "descripcion":"a"
+        
     },
     {
         "id":11,
         "nombre":"Remera Negra de algodon",
         "imagen":"../style/img/SHOP/remeracreep240.png",
         "precio":20,
-        "descripcion":"a",
-        "stock":10
+        "descripcion":"a"
+        
     },
     {
         "id":12,
         "nombre":"Minecraft Education PC",
         "imagen":"../style/img/SHOP/MINECRAFT_EDUCATION_240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10
+        "descripcion":"a"
+        
     },
     {
         "id":13,
         "nombre":"Minecraft Java PC",
         "imagen":"../style/img/SHOP/MINECRAFT240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10
+        "descripcion":"a"
+        
     },
     {
         "id":14,
         "nombre":"Mochila Minecraft",
         "imagen":"../style/img/SHOP/MOCHILA_MM240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10
+        "descripcion":"a"
+        
     },
     {
         "id":15,
         "nombre":"Llama",
         "imagen":"../style/img/SHOP/LLAMA_MM240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10
+        "descripcion":"a"
+        
     },
     {
         "id":16,
         "nombre":"Muñeco de Nieve",
         "imagen":"../style/img/SHOP/muñecoSinFondo240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10 
+        "descripcion":"a"
+        
     },
     {
         "id":17,
         "nombre":"Conjunto minecraft",
         "imagen":"../style/img/SHOP/pijama240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10 
+        "descripcion":"a"
+        
     },
     {
         "id":18,
         "nombre":"Minecraft Realms",
         "imagen":"../style/img/SHOP/REALMS_MINECRAFT240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10 
+        "descripcion":"a"
     },
     {
         "id":19,
         "nombre":"Lamparas de Lava",
         "imagen":"../style/img/SHOP/LAMPARA_LAVA_DIA_NOCHE_MM240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10 
+        "descripcion":"a"
     },
     {
         "id":20,
         "nombre":"Minecraft Story Ps4",
         "imagen":"../style/img/SHOP/minecraft_story_mode_240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10 
+        "descripcion":"a"
     },
     {
         "id":21,
         "nombre":"Minecraft Legends PC",
         "imagen":"../style/img/SHOP/LEGENDS240.png",
         "precio":50,
-        "descripcion":"a",
-        "stock":10 
+        "descripcion":"a"
     }
 ]

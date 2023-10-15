@@ -21,7 +21,7 @@ function cargarProductoPorId(idBuscado) {
                     <img src="${productoValidado.imagen}" class="imagenDelProducto" alt="">
                     <p class="precioProducto">Precio: ${productoValidado.precio}$</p>
                     <p class="descripcionProducto"> ${productoValidado.descripcion}</p>
-                    <p class="stock">Nos quedan Disponibles: ${productoValidado.stock}</p>
+                    
                 </article>
             `;
             contendorProducto.innerHTML = html

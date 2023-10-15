@@ -58,6 +58,7 @@ body{
     margin: 1.4em;
     padding: 2.5em;
     background-color: #fff;
+    
 }
 
 .imagenDelProducto {
@@ -68,12 +69,12 @@ body{
 
 .title{
     grid-row: 0;
-    grid-column: 1;
+    grid-column: 2;
     font-size: 2em;
 }
 
 .precioProducto {
-    grid-column: 1;
+    grid-column: 2;
     font-size: 3em;
 }
 
@@ -85,7 +86,9 @@ body{
 }
 
 .productoAComprar{
-        grid-column: 2;
+    display: flex;
+    align-items: baseline;    
+    grid-column: 2;
 }
 /*Btns*/
 .btn-compra {
