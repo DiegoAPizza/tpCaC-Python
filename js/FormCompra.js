@@ -5,9 +5,15 @@ function validarFormulario() {
     const ciudad = document.getElementById('inputCity').value.trim();
     const codigoPostal = document.getElementById('inputZip').value.trim();
     const tarjetaDeCredito=document.getElementById("inputCard").value.trim();
-    if(((direccion==null)||(direccion==""))&&(ciudad==null)||(ciudad=="")&&(codigoPostal==null)||(codigoPostal=="")){
+    if(((direccion==null)||(direccion==""))){
       console.log("No se ingreso Correctamente los Datos")
       alert("Porfavor Volver a Ingresar Los datos se encuentran Vacio")
+    }
+    if((codigoPostal==null)||(codigoPostal=="")){
+      console.log("No se ingresó el Codigo Postal");
+    }
+    if((ciudad==null)||(ciudad=="")){
+      console.log("No se ingreso Correctamente los Datos")
     }
     const expresionRegular = /[a-zA-Z]/;
     if(!expresionRegular.test(tarjetaDeCredito)){
