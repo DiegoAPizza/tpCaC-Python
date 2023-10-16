@@ -539,7 +539,7 @@ article .conteinfo{
 button{
     border: 0%;
     background-image: linear-gradient(150deg, rgb(19, 230, 230), rgba(9,113,121,1), rgba(7,233,37,1));
-    margin-top: 2.5%;
+    margin-top: 2%;
     cursor: pointer;
     color: #fff;
     padding: 14px 30px;
@@ -572,7 +572,7 @@ button{
  .button2{
     border: 0;
     background-image: linear-gradient(150deg, rgb(19, 230, 230), rgba(9,113,121,1), rgba(7,233,37,1));
-    margin-top: 2.5%;
+    margin-top: 2%;
     cursor: pointer;
     color: #fff;
     padding: 14px 30px;
@@ -639,6 +639,13 @@ button{
         box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
         text-align: center; /* Centrar el contenido del contenedor */
         margin-top: 3%;
+         & p{
+          color: black;
+          bottom: 0%;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: bold;
+      
+      }
     }
     
   .contefoo .contelineas{
@@ -671,7 +678,7 @@ button{
     
   }
   .contelineas .l3{
-    height: 100px;
+    height: 80%;
     width: 32%;;
     margin-left:33%;
     background: url(/style/img/fimg2.png);
