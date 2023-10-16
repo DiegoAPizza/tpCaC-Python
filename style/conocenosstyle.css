@@ -13,8 +13,18 @@
   font-size: 2em;
   display: flex;
   justify-content: space-between;
+  z-index: 100;
+  position: absolute;
+  width: 100%;
 }
 
+nav{
+  display: flex;
+}
+.logo{
+  margin-top: 1%;
+  margin-left: 1%;
+}
 .nav_link {
   color: #fff;
   text-decoration: none;
@@ -24,29 +34,25 @@
 .nav_link:hover{
   text-shadow: -5px 4px black;
   color: #06a500;
-  
 }
+
 body {
-  background-image: url(../style/img/conocenos\ editc.png);
+  background-image: url(/style/img/CC.png);
   background-size: cover;
   background-attachment: fixed;
-  z-index: 1;
-   
+  display: flex;
 }
 img{
    position: absolute;
   left: 0px;
-  top: 0px;
-  z-index: -1;
-
+  top: 1%;
 }
 
 .tarjetas {
-  width: 240px;
+  width: 250px;
   height: 253px;
   perspective: 1000px;
   position: absolute;
- 
 }
 
 .tarjeta {
@@ -56,8 +62,10 @@ img{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin-left: 256%;
-  margin-top: 0%;
+  margin-left: 210%;
+  margin-top: 41%;
+  border: 2.5px solid #ffffff;
+  box-shadow: inset 0 0 9px #0576e0, 0 0 18px rgb(211, 4, 238);
 }
 
 .tarjetas:hover .tarjeta {
@@ -79,17 +87,15 @@ img{
 }
 
 .tarjetasb {
- 
   width: 240px;
   height: 256px;
   perspective: 1000px;
   position: absolute;
-  margin-top: 5.5%;
-  margin-left: 1022px;
+  margin-top: 8%;
+  margin-left: 80%;
+  border: 2 px solid red;
 }
  
-
-
 .tarjetab {
   position: relative;
   width: 100%;
@@ -97,6 +103,8 @@ img{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  border: 2.5px solid #ffffff;
+  box-shadow: inset 0 0 9px #0576e0, 0 0 18px rgb(211, 4, 238)
 }
 
 .tarjetasb:hover .tarjetab {
@@ -115,7 +123,6 @@ img{
 
 .tarjetasb .dorsob {
   transform: rotateY(180deg);
-
 }
 
 .tarjetasc {
@@ -124,7 +131,6 @@ img{
   perspective: 1000px;
   position: absolute;
   top: 7.2%;
-
 }
 
 .tarjetac {
@@ -134,7 +140,10 @@ img{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin-top: 17%;
+  margin-top: 20%;
+  margin-left: 5%;
+  border: 2.5px solid #ffffff;
+  box-shadow: inset 0 0 9px #0576e0, 0 0 18px rgb(211, 4, 238)
 }
 
 .tarjetasc:hover .tarjetac {
@@ -153,24 +162,20 @@ img{
 
 .tarjetasc .dorsoc {
   transform: rotateY(180deg);
- 
 }
 
-  .titulo{
+.titulo{
     text-align: center;
     margin: auto;
-    margin-top: 630px;
     font-family: 'Staatliches', cursive;
-    font-size: 5em;
+    font-size: 4em;
     border-color:  linear-gradient(to top, blue, rgb(161, 3, 153), rgb(136, 223, 37));
     text-shadow: 0 0 7px #fa6ef3, 0 0 15px rgb(232, 253, 40), 0 0 30px rgb(245, 235, 96);
     border: transparent;
-    margin-bottom: 0%;
-    margin-top: 45%;
+    margin-top: 53%;
 }
 
 .container_nav {
-    
   margin: auto;
   background-color: #333;
   padding: 10px;
