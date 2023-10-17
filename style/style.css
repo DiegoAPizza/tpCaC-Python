@@ -203,39 +203,61 @@ body{
     background-position: center top; 
     backface-visibility: inherit;
     background-attachment: fixed;
-
 }
 
 .titulo {
-        align-items: center;
         display: flex;
         justify-content: center;
-        width: 85vw;
+        align-items: center;
+        width: 60em;
         margin: auto;
-      
         }
  
-.it{
-          width: 100%;
-          height: 14em;
-          object-fit: contain;
-          object-position: bottom;
-          
-         }
-        
-        
-@media ( max-width:600px) {
-   .titulo{
-    width: 100%;
-   }
-         .it{
-          
-          width: 100%;
-          
-         }
-      }
-        
+.titulo .it{
+ width: 95%;
+ height: 14em;
+ object-fit: contain;
+ object-position: bottom;
+ display: flex;
+}
 
+@media screen and ( max-width:450px) {
+     .titulo{
+      width: 100%;
+      margin: auto;
+      object-fit: contain;
+    
+     }
+      .it{
+         width: 100%;
+        }
+ }        
+
+ @media screen and ( max-width:600px){
+          .titulo{
+            width: 100%;
+            margin: auto;
+            flex-direction: row;
+            object-fit: contain;
+          
+           }
+.it{
+   width: 80%;
+  }  
+        }   
+
+@media screen and ( max-width:790px){
+          .titulo{
+            width: 100%;
+          margin: auto;
+          flex-direction: row;
+          object-fit: contain;
+           }
+                 .it{
+                  width: 60%; 
+                 }
+          
+        }   
 
 .slogan{
     font-family: 'Staatliches', cursive;
@@ -297,6 +319,7 @@ Pendiente de modificacion*/
    background-image: url(/style/img/fondo-abstracto-pixel-lluvia_23-2148371445.avif);
    background-size: cover;
    width: 97% ;
+   border: 2px solid red;
   
 }
 
@@ -334,17 +357,38 @@ Pendiente de modificacion*/
  
 }
 
-@media ( max-width:600px) {
-  
+
+@media screen and ( max-width:450px) {
   .carruitems{
-    width: 0%;
-    object-position: center;
+   width: 100%;
   }
-     .im{
+   .im{
       width: 100%;
-      height: 100%;
      }
-}
+}        
+
+@media screen and ( max-width:600px){
+       .carruitems{
+         width: 100%;
+
+        }
+              .im{
+               width: 80%;
+               
+              }
+       
+     }   
+     @media screen and ( max-width:790px){
+       .carruitems{
+         width: 100%;
+
+        }
+              .im{
+               width: 60%;
+               
+              }
+       
+     }   
 
 .carru .flechas {
     height: 100%;
@@ -373,23 +417,42 @@ i {
     border: 0.40rem  solid black;
     box-shadow: inset 0 0 10px rgba(188,121,210,1), 0 0 17px #11fd25;
     background-color: black;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8em;
     display: flex;
     width: 63em;
+
   }
 
-  @media ( max-width:600px) {
-    .contenedorscroll{
-      width: 100%;
-      
+  @media screen and ( max-width:450px) {
+    #contenedorscroll{
+     width: 100%;
     }
-    .tituloscroll{
-      width: 100%;
-    }
-     
-  }
+     .tituloscroll{
+        width: 100%;
+       }
+  }        
   
+  @media screen and ( max-width:600px){
+         #contenedorscroll{
+           width: 100%;
+  
+          }
+                .tituloscroll{
+                 width: 80%;
+                 
+                }
+         
+       }   
+       @media screen and ( max-width:790px){
+         #contenedroscroll{
+           width: 100%;
+  
+          }
+          .tituloscroll{
+            width: 60%;
+          }
+        }
+
   #tituloscroll {
     text-align: right;
     -moz-transform: translateX(-100%);
@@ -398,8 +461,10 @@ i {
     -moz-animation: my-animation 20s linear infinite ;
     -webkit-animation: my-animation 20s linear infinite;
     animation: my-animation 20s linear infinite;
+    display: flex;
     
   }
+
   
   /* Firefox */
   @-moz-keyframes my-animation {
@@ -449,16 +514,21 @@ i {
     margin: 0 auto;
     border:  0.80rem solid black;
     margin-top: 0.5%; 
+    border: 3px solid red;
+  
 }
 
-@media ( max-width:600px) {
-  .off{
-    width: 100%;
+@media only screen and (max-width: 450px) {
+  .off {
+    width: 70%;
+    margin: auto;
+    object-fit: contain;
+    flex-direction: column;
   }
-  .ioff{
-    width: 100%;
+  .oiff{
+    width: 70%;
+    
   }
-   
 }
 
 #off .ioff{
@@ -468,6 +538,8 @@ i {
     opacity: .8;
     transition:.5s ease;
     padding: 0;
+    display: flex;
+
     
 }
 
@@ -766,6 +838,17 @@ button{
     opacity: 120%;
   }
   @media ( max-width:600px) {
+    .pf{
+      width: 100%;
+      
+    }
+    .contefoo{
+      width: 100%;
+    }
+     
+  }
+
+  @media ( max-width:450px) {
     .pf{
       width: 100%;
       
