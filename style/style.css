@@ -12,7 +12,7 @@ body{
 /*Header*/
 .header {
     background-color: #333;
-    padding: 10px;
+    padding: 0.625rem;
     height: 3em;
     align-items: center;
     font-size: 2em;
@@ -137,9 +137,9 @@ body{
 }
 
 .hammenu .span{
-    height: 2px;
+    height: 0.125rem;
     width: 100%;
-    margin-top: 6px;
+    margin-top: 0.375em;
     transform-origin: 0px 100%;
     display: block;
     background-color: black;
@@ -167,12 +167,12 @@ body{
 .nav_link {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 0.625em;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav_link:hover{
-    text-shadow: -5px 4px black;
+    text-shadow: -0.31em 0.25em black;
     color: #06a500;
     
 }
@@ -185,7 +185,7 @@ body{
 .nav_bar_aPage{
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 0 0.625em;
   
     
 }
@@ -197,7 +197,7 @@ body{
 /*Register */
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
 .fondo_register {
-    border: 3px solid black;
+    border:  0.625rem solid black;
     background: no-repeat url(./img/HD-wallpaper-video-game-minecraft2.jpg);
     background-size: cover;
     background-position: center top; 
@@ -207,25 +207,50 @@ body{
 }
 
 .titulo {
-   
-        text-align: center; 
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        width: 85vw;
         margin: auto;
-        margin-top:12px;
-}
+      
+        }
+ 
+.it{
+          width: 100%;
+          height: 14em;
+          object-fit: contain;
+          object-position: bottom;
+          
+         }
+        
+        
+@media ( max-width:600px) {
+   .titulo{
+    width: 100%;
+   }
+         .it{
+          
+          width: 100%;
+          
+         }
+      }
+        
+
 
 .slogan{
     font-family: 'Staatliches', cursive;
     text-align: center;
     font-weight: 700px;
     font-style: oblique;
-     font-size:37px;
+     font-size: 2.313em;
      text-shadow: 0 0 7px #2dc010ef, 0 0 15px rgba(7, 247, 235, 0.993), 0 0 30px rgb(195, 9, 241);
      letter-spacing: 0.1em;
       word-spacing: 0.15em;
+       margin-top: 2%;
 }
 
 .mmcontendor{
-   border: 4px solid black;
+   border: 0.25rem solid black;
 }
 
 .container_register {
@@ -259,37 +284,66 @@ Pendiente de modificacion*/
 /*Carrusel de Gabri*/
 
 #contenedorcarru {
-   margin-top: 100px;
-   height: 270px;
+   margin-top: 6em;
+   height: 18rem;
    overflow: hidden ;
-   margin-left: 0.5em;
-   margin-right: 0.5em;
+   margin-left: 1%;
+   margin-right: 2%;
    border-radius: 50px;
-   box-shadow: inset -5px 5px 10px #2c2c2b,inset 5px -5px 10px #06a500;
+   border:black 2px solid;
+   box-shadow: inset -5px 5px 10px rgb(3, 3, 3),inset 5px -5px 10px rgb(22, 22, 22);
    top: 0%;
    text-align: center;
-   background: linear-gradient(309deg, rgba(4,1,54,1) 3%, rgba(9,113,121,1) 51%, rgba(7,233,37,1) 100%);
-
+   background-image: url(/style/img/fondo-abstracto-pixel-lluvia_23-2148371445.avif);
+   background-size: cover;
+   width: 97% ;
   
 }
 
 .carru {
-    height: 100%;
+    height:100%;
     width: 100%;
     position: relative;
     transition: all .5s ease;
     display: flex;
-   flex-direction: column;
+    flex-direction: row;
    align-items: center;
-  
+   justify-content: center;
+   margin-top: 0.5%;
+   margin-bottom: 0.5%;
     
 }
 
 .carru .items {
-    height: 100%;
-    width: 100%;
+    height: 16em;
+    width: 80%;
     flex-flow: wrap;
-    margin: auto;  
+    margin-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    
+}
+
+.carruitems .im{
+  width: 100%;
+  height: 90%;
+ object-position: center;
+ align-items: center;
+ 
+}
+
+@media ( max-width:600px) {
+  
+  .carruitems{
+    width: 0%;
+    object-position: center;
+  }
+     .im{
+      width: 100%;
+      height: 100%;
+     }
 }
 
 .carru .flechas {
@@ -309,20 +363,31 @@ a {
 i {
     color: white;
     font-size: 300%;
-    -webkit-text-stroke: 1.5px rgb(172, 6, 172);
+    -webkit-text-stroke: 0.08em rgba(188,121,210,1);
 }
-
 
 #contenedorscroll {
     margin-top: 8%;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     overflow: hidden;
-    border: 2px solid #ffffff;
-    box-shadow: inset 0 0 7px #0576e0, 0 0 15px rgb(211, 4, 238);
-    background-color: #2c2c2b;
+    border: 0.40rem  solid black;
+    box-shadow: inset 0 0 10px rgba(188,121,210,1), 0 0 17px #11fd25;
+    background-color: black;
     margin-left: 10%;
     margin-right: 10%;
-    
+    display: flex;
+    width: 63em;
+  }
+
+  @media ( max-width:600px) {
+    .contenedorscroll{
+      width: 100%;
+      
+    }
+    .tituloscroll{
+      width: 100%;
+    }
+     
   }
   
   #tituloscroll {
@@ -363,14 +428,13 @@ i {
 
 .offt{
     position: relative;
-    top: 0px;
-    font-size: 32px;
+    top: 0em;
+    font-size: 2em;
     color: rgba(7,233,37,1);
-    -webkit-text-stroke: 0.5px #fff ;
     padding: 0.4em;
     letter-spacing: 0.1em;
-    background-color:#2c2c2b ;
-    border-radius: 13px;  
+    background-color:black;
+    border-radius: 0.813rem;  
     font-family: 'Staatliches', cursive;
 }
 
@@ -380,12 +444,20 @@ i {
 
 #off{
     display: flex;
-    width: 940px;
-    height: 300px;
+    width: 58.75em;
+    height: 18.75em;
     margin: 0 auto;
-    border: 2px solid #ffffff;
-    box-shadow: inset 0 0 7px #0576e0, 0 0 15px rgb(211, 4, 238);
-    margin-top: 0%;
+    border:  0.80rem solid black;
+    margin-top: 0.5%; 
+}
+
+@media ( max-width:600px) {
+  .off{
+    width: 100%;
+  }
+  .ioff{
+    width: 100%;
+  }
    
 }
 
@@ -401,7 +473,7 @@ i {
 
 #off .ioff:hover{
     cursor: crosshair;
-    width: 300px;
+    width: 18.75em;
     opacity: 1;
     filter: contrast(120%);
 }
@@ -413,7 +485,7 @@ i {
 
 .eg{
     color:#cb59ff;
-    border-color: white 0.5px;
+    border-color: white  0.031px;
     text-shadow: 0 0 7px #2dc010ef, 0 0 15px rgba(7, 247, 235, 0.993), 0 0 30px rgb(195, 9, 241);
 }
 
@@ -424,28 +496,28 @@ i {
       color: white;
       text-align: center;
       background-color: #333;
-      box-shadow: inset 0 0 12px #e7f714, 0 0 19px rgb(4, 236, 205);
+      box-shadow: inset 0 0 7px rgba(131,58,180,1), 0 0 15px rgb(211, 4, 238);
       border: #333 1em;
       -webkit-text-stroke: 0.5px #080c01;
-      font-size: 37px;
+      font-size: 2.31em;
 }
 
 
 article{
-    height: 500px;
-    width: 100%;
+    height: 31.5rem;
+    width: 99%;
     margin-top: 0%;
     background-color: #333;
-    box-shadow: inset 0 0 12px #e7f714, 0 0 19px rgb(4, 236, 205);
-    border: #333 1em;  
-    margin-left: 0.5;
-    margin-right: 0.5;
+    border:  0.125rem solid #ffffff;
+    box-shadow: inset 0 0 7px rgba(131,58,180,1), 0 0 15px rgb(211, 4, 238);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
    
 }
 
 article .contenedorgp{
     margin-top: 0%;
-    height: 318px;
+    height:19.875em ;
     width: 99%;
     margin-left:0.5%;
     margin-right: 0.5%;
@@ -456,7 +528,7 @@ article .contenedorgp{
     height: 98%;
     position: relative;
     display: flex;
-    padding: 0.25px;
+    padding: 0.016;
 }
 .carruvideo .itemsv {
     height: 99%;
@@ -475,7 +547,7 @@ article .contenedorgp{
     font-family: 'Staatliches', cursive;
     color:rgba(7,233,37,1);
     -webkit-text-stroke: 0.5px black;
-    font-size: 28px;
+    font-size: 1.75em;
     text-align: center;
 }
 
@@ -486,14 +558,14 @@ article .contenedorgp{
     font-family: 'Staatliches', cursive;
     color:rgba(7,233,37,1);;
     -webkit-text-stroke: 0.5px black;
-    font-size: 28px;
+    font-size: 1.75em;
     text-align: center;
 }
 
 .infojuego{
     color: white;
     margin-left: 3%;
-    font-size: 18px;
+    font-size: 1.125em;
     font-family: Arial, Helvetica, sans-serif;
     word-spacing: 0.15em;
     letter-spacing: 0.02em;
@@ -503,7 +575,7 @@ article .contenedorgp{
 .infojuego2{
    color: white;
    margin-left: 3%;
-   font-size: 18px;
+   font-size: 1.125em;
    font-family: Arial, Helvetica, sans-serif;
    word-spacing: 0.15em;
    letter-spacing: 0.02em;
@@ -542,12 +614,12 @@ button{
     margin-top: 2%;
     cursor: pointer;
     color: #fff;
-    padding: 14px 30px;
-    border-radius: 8px;
-    font-size: 14px ;
+    padding: 0.875em 1.875em ;
+    border-radius: 0.5rem;
+    font-size: 0.875em;
     font-weight: bold;
     display: flex;
-    padding: 4px;
+    padding: 0.25em;
     transition: .3s;
     margin-left: 36%;
     font-family: 'Staatliches',cursive;
@@ -557,14 +629,15 @@ button{
   
   button span{
       background-color: #111;
-      padding: 16px 24px;
-      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      border-radius: 0.5rem;
       transition: .3s;
   }
 
   button span:hover{
     background: none;
   }
+
  button:active{
     transform: scale(0.9);
  }
@@ -575,12 +648,12 @@ button{
     margin-top: 2%;
     cursor: pointer;
     color: #fff;
-    padding: 14px 30px;
-    border-radius: 8px;
-    font-size: 14px ;
+    padding: 0.875em 1.875em  ;
+    border-radius: 0.5rem;
+    font-size: 0.875em;
     font-weight: bold;
     display: flex;
-    padding: 4px;
+    padding: 0.25em;
     transition: .3s;
     margin-left: 36%;
     font-family: 'Staatliches',cursive;
@@ -590,8 +663,8 @@ button{
   
   .button2 span{
       background-color: #111;
-      padding: 16px 24px;
-      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      border-radius: 0.5rem;
       transition: .3s;
   }
 
@@ -612,13 +685,13 @@ button{
 .navbar a {
     color: white;
     text-transform: uppercase;
-    padding: 15px 15px;
+    padding: 0.938em 0.938em;
     display: block;
 }
 
 .navbar {
     display: flex;
-    margin-right: 10px;
+    margin-right: 0.625em;
 
 }
 
@@ -628,10 +701,12 @@ button{
 
 #pf{
     display:flex;
+    width: 78.2em;
+  
   }
   .contefoo{
       border: black 3px solid;
-      height: 600px;
+      height: 37.5rem;
       width:100%;
         padding: 3em;
         background:linear-gradient(rgba(255, 255, 255, 0.8), transparent) ; /* Fondo semi-transparente para mejor legibilidad */
@@ -645,11 +720,12 @@ button{
           font-family: Arial, Helvetica, sans-serif;
           font-weight: bold;
       
+
       }
     }
     
   .contefoo .contelineas{
-     height: 90px;
+     height: 5.625em;
     width: 100%;
     display: flex;
      flex-direction: row;
@@ -659,18 +735,19 @@ button{
       align-items: flex-start;
       top: 0%;
       background: linear-gradient(90deg, rgba(131,58,180,1) 30%, rgba(188,121,210,1) 46%, rgba(100,68,135,1) 82%);
+
   }
 
   .contelineas .l1{
-    border:1px solid black;
-     height: 0px;
+    border: 0.063em solid black;
+     height: 0em;
       width: 30%;
     margin-left:2%;
     margin-top:3%;
  }
 
   .contelineas .l2{
-    border:1px solid black;
+    border:0.063em solid black;
      height: 0px;
       width: 30%;
      margin-left:68%;
@@ -688,7 +765,16 @@ button{
     padding: 1%;
     opacity: 120%;
   }
-
+  @media ( max-width:600px) {
+    .pf{
+      width: 100%;
+      
+    }
+    .contefoo{
+      width: 100%;
+    }
+     
+  }
 
  .conteinfofooter{
     z-index: 0;
