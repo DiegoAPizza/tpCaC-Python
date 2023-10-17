@@ -30,18 +30,29 @@ function cargarProductoPorId(idBuscado) {
             productos.forEach(po => { listaDeProductos.push(po) })
             let html2 = `
             <article class="productosOferta">
-                <a class="itemProducto" href="./producto.html?id=${productoValidado.id+1}">
-                    <div class="productoOferta">
-                        <picture>
-                            <img class="productoOferta_img" src="${listaDeProductos[idBuscado+1].imagen}" alt="producto_oferta">
-                        </picture>
-                        <h5 class="tituloProductoOferta">${listaDeProductos[idBuscado+1].nombre}</h5>
-                        <p class="precioOferta">$ ${listaDeProductos[idBuscado+1].precio}Uds</p>
-                    </div>
-                </a>
+            ${productoValidado.id === listaDeProductos[listaDeProductos.length - 1].id
+                ? `<a class="itemProducto" href='./producto.html?id=${listaDeProductos[0].id}'>
+                      <div class="productoOferta">
+                          <picture>
+                              <img class="productoOferta_img" src="${listaDeProductos[0].imagen}" alt="producto_oferta"/>
+                          </picture>
+                          <h5 class="tituloProductoOferta">${listaDeProductos[0].nombre}</h5>
+                          <p class="precioOferta">$ ${listaDeProductos[0].precio}Uds</p>
+                      </div>
+                    </a>`
+                : `<a class="itemProducto" href='./producto.html?id=${productoValidado.id + 1}'>
+                      <div class="productoOferta">
+                          <picture>
+                              <img class="productoOferta_img" src="${listaDeProductos[idBuscado + 1].imagen}" alt="producto_oferta"/>
+                          </picture>
+                          <h5 class="tituloProductoOferta">${listaDeProductos[idBuscado + 1].nombre}</h5>
+                          <p class="precioOferta">$ ${listaDeProductos[idBuscado + 1].precio}Uds</p>
+                      </div>
+                    </a>`
+              }
             </article>
             `;
-            seccionOferta.innerHTML=html2
+            seccionOferta.innerHTML = html2
 
         })
         .catch(error => {
