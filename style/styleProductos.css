@@ -89,6 +89,11 @@ body{
     display: flex;
     align-items: baseline;    
     grid-column: 2;
+    display: flex;
+    grid-column: 2;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
 }
 /*Btns*/
 .btn-compra {
