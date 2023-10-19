@@ -48,6 +48,7 @@ function cargarProductoPorId(idBuscado) {
                           <h5 class="tituloProductoOferta">${listaDeProductos[idBuscado + 1].nombre}</h5>
                           <p class="precioOferta">$ ${listaDeProductos[idBuscado + 1].precio}Uds</p>
                       </div>
+                      
                     </a>`
               }
             </article>
