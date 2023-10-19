@@ -4,10 +4,28 @@
     box-sizing: border-box;
 }
 body{
-  background: url(/style/img/SHOP/bloque-minecraf-fondo.png);
-   
+  background: url(/style/img/SHOP/bloque-minecraf-fondo.png);   
     }
   
+    .head {
+      background-color: #52a535;
+      display: flex;
+      width: 100%;
+      height: 60px;
+  }
+  
+  .navbar a {
+      color: white;
+      text-transform: uppercase;
+      padding: 0.938em 0.938em;
+      display: block;
+  }
+  
+  .navbar {
+      display: flex;
+      margin-right: 0.625em;
+  
+  }
 
 /*Header*/
 .header {
@@ -18,7 +36,27 @@ body{
     font-size: 2em;
     display: flex;
     justify-content: space-between;
+    width: 39em;
 }
+
+@media screen and ( max-width:450px) {
+  .header{
+  width: 70%;
+ 
+  }
+  @media only screen and (max-width: 600px) {
+    .header {
+     width: 80%;
+    }
+    }
+  
+  @media only screen and (max-width: 750px) {
+    .header {
+     width: 80%;
+   
+    }
+    }
+  }
 
 .menuitems {
     text-align: center;
@@ -38,6 +76,7 @@ body{
     display:none
 
 }
+
 
 .menuitems li{
     color: white;
@@ -205,70 +244,125 @@ body{
     background-attachment: fixed;
 }
 
-.titulo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 60em;
-        margin: auto;
-        }
- 
-.titulo .it{
- width: 95%;
- height: 14em;
- object-fit: contain;
- object-position: bottom;
- display: flex;
+/*main*/
+.container{
+  border: 5px solid rgb(88, 14, 226);
+  width: 78rem;
 }
 
-@media screen and ( max-width:450px) {
-     .titulo{
-      width: 100%;
-      margin: auto;
-      object-fit: contain;
+@media screen and ( max-width:400px) {
+  .container{
+   width: 100%;
+   margin: 0;
+   
+  }
+}   
+
+@media screen and ( max-width:600px) {
+  .container{
+   width: 100%;
+   margin: auto;
+   object-fit: contain;
+ 
+  }
+}   
+
+@media screen and ( max-width:750px) {
+  .container{
+   width: 100%;
+   margin: auto;
+   object-fit: contain;
+ 
+  }
+}   
+ .titulo{
+  width: 90%;
+  height: 8em;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+ 
+
+ }
+ .titulo .it{
+margin: auto;
+ object-fit: cover;
+ object-position: bottom;
+ display: flex;
+ 
+}
+
+@media screen and ( max-width:400px) {
+  .titulo{
+    height: 60%;
+    margin-top: 25%;
+    width: 100%;
+    margin-left: 0%;
+  }
     
-     }
       .it{
          width: 100%;
+         object-fit: contain;
+         
         }
  }        
 
  @media screen and ( max-width:600px){
-          .titulo{
-            width: 100%;
-            margin: auto;
-            flex-direction: row;
-            object-fit: contain;
-          
-           }
+  .titulo{
+    height: 60%;
+    margin-top: 25%;
+    width: 100%;
+    margin-left: 0%;
+  }    
 .it{
-   width: 80%;
+   width: 100%;
+   object-fit: contain;
+
   }  
         }   
 
 @media screen and ( max-width:790px){
-          .titulo{
-            width: 100%;
-          margin: auto;
-          flex-direction: row;
-          object-fit: contain;
-           }
-                 .it{
-                  width: 60%; 
-                 }
           
-        }   
+  .it{
+         width: 100%; 
+     }
+}   
 
 .slogan{
     font-family: 'Staatliches', cursive;
     text-align: center;
-    font-weight: 700px;
+    font-weight: 43.75em;
     font-style: oblique;
      font-size: 2.313em;
      text-shadow: 0 0 7px #2dc010ef, 0 0 15px rgba(7, 247, 235, 0.993), 0 0 30px rgb(195, 9, 241);
      letter-spacing: 0.1em;
       word-spacing: 0.15em;
-       margin-top: 2%;
+       margin-top: 4%;
+      width: 95%;    
+}
+
+@media screen and ( max-width:450px) {
+  .slogan{
+    width: 90%;
+  font-size: 80%;
+   margin: auto;
+}  
+ }  
+
+@media screen and ( max-width:600px){
+       .slogan{
+        width: 90%;
+    font-size: 80%;
+    margin: auto;
+}  
+}
+
+@media screen and ( max-width:750px){
+  .slogan{
+   width: 90%;
+font-size: 80%;
+margin: auto;
+}  
 }
 
 .mmcontendor{
@@ -303,24 +397,19 @@ Pendiente de modificacion*/
 }
 
 
-/*Carrusel de Gabri*/
+/*Main - Carrusel de Ga*/
 
 #contenedorcarru {
    margin-top: 6em;
    height: 18rem;
-   overflow: hidden ;
-   margin-left: 1%;
-   margin-right: 2%;
+   overflow: hidden;
    border-radius: 50px;
    border:black 2px solid;
    box-shadow: inset -5px 5px 10px rgb(3, 3, 3),inset 5px -5px 10px rgb(22, 22, 22);
-   top: 0%;
    text-align: center;
    background-image: url(/style/img/fondo-abstracto-pixel-lluvia_23-2148371445.avif);
    background-size: cover;
-   width: 97% ;
-   border: 2px solid red;
-  
+   width: 96%;
 }
 
 .carru {
@@ -334,60 +423,65 @@ Pendiente de modificacion*/
    justify-content: center;
    margin-top: 0.5%;
    margin-bottom: 0.5%;
-    
 }
 
 .carru .items {
     height: 16em;
-    width: 80%;
+    width: 90%;
     flex-flow: wrap;
     margin-bottom: 0;
     justify-content: center;
     align-items: center;
     align-self: center;
     display: flex;
-    
+
+}
+.seccarru{
+  border: 3px solid white;
+  margin-top: 3%;
+
 }
 
-.carruitems .im{
-  width: 100%;
-  height: 90%;
- object-position: center;
- align-items: center;
- 
-}
+@media screen and ( max-width:400px) {
 
-
-@media screen and ( max-width:450px) {
-  .carruitems{
-   width: 100%;
+  .seccarru{
+     margin-top: 5%;
   }
-   .im{
-      width: 100%;
-     }
+  #contenedorcarru{
+    width: 99%;
+    overflow: hidden;
+   
+   
+  }
+  .carru{
+   width: 99%;
+  }
+  .items{
+  width: 50%;
+  }
+   
 }        
-
 @media screen and ( max-width:600px){
+
+   #contenedorcarru{
+    width: 99%;
+   overflow: hidden;
+   
+  }
        .carruitems{
          width: 100%;
-
         }
               .im{
-               width: 80%;
-               
-              }
-       
+               width: 70%;
+              }  
      }   
-     @media screen and ( max-width:790px){
+     @media screen and ( max-width:750px){
        .carruitems{
          width: 100%;
-
         }
-              .im{
-               width: 60%;
-               
-              }
-       
+        #cmm1, #cmm2, #cmm3, #cmm4 {
+               width: 100%;         
+              }     
      }   
 
 .carru .flechas {
@@ -420,36 +514,45 @@ i {
     margin-left: 8em;
     display: flex;
     width: 63em;
+    margin-top: 10%;
 
   }
 
-  @media screen and ( max-width:450px) {
+  @media screen and ( max-width:400px) {
     #contenedorscroll{
      width: 100%;
+     height: 50%;
+    margin-top: 5%;
     }
      .tituloscroll{
         width: 100%;
+        margin: 0%;
+        font-size: 45%;
        }
   }        
   
   @media screen and ( max-width:600px){
          #contenedorscroll{
            width: 100%;
+           margin: 0%;
   
           }
                 .tituloscroll{
                  width: 80%;
+                 margin: 0%;
                  
                 }
          
        }   
-       @media screen and ( max-width:790px){
+       @media screen and ( max-width:750px){
          #contenedroscroll{
            width: 100%;
+           margin: 0%;
   
           }
           .tituloscroll{
             width: 60%;
+            margin: 0%;
           }
         }
 
@@ -507,43 +610,84 @@ i {
     visibility: hidden;
 }
 
-#off{
-    display: flex;
-    width: 58.75em;
-    height: 18.75em;
-    margin: 0 auto;
-    border:  0.80rem solid black;
-    margin-top: 0.5%; 
-    border: 3px solid red;
+main #conteoff{
+  width: 100%;
+ 
+}
+
+.off{
+  display: flex;
+  width: 80%;
+  height: 20em;
+  margin: 0 auto;
+  border:  0.80rem solid black;
+  margin-top: 1%; 
+
   
 }
-
 @media only screen and (max-width: 450px) {
   .off {
-    width: 70%;
-    margin: auto;
-    object-fit: contain;
-    flex-direction: column;
+    width: 100%;
+    margin: 0%;
+    display: flex;
+   
+  
   }
   .oiff{
-    width: 70%;
-    
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+  }
+  #conteoff{
+    width: 100%;
+  }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .off {
+      width: 100%;
+      margin: 0%;
+      display: flex;
+     
+    }
+    .oiff{
+      width: 100%;
+      display: flex;
+    object-fit: cover;
+    }
+    #conteoff{
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 750px) {
+  .off {
+    width: 100%;
+    margin: 0%;
+    display: flex;
+ 
+  }
+  .oiff{
+    width: 100%;
+    display: flex;
+    object-fit: cover;
+  }
+  #conteoff{
+    width: 100%;
   }
 }
 
-#off .ioff{
+.off .ioff{
     width: 0em;
     flex-grow: 1;
     object-fit: contain;
     opacity: .8;
     transition:.5s ease;
     padding: 0;
-    display: flex;
-
-    
+    display: flex; 
 }
 
-#off .ioff:hover{
+.off .ioff:hover{
     cursor: crosshair;
     width: 18.75em;
     opacity: 1;
@@ -606,12 +750,14 @@ article .contenedorgp{
     height: 99%;
     flex: 1 0 auto;
     padding: 0em;
+    width: 50%;
 }
 
 .carruvideo .itemsv2 {
     height: 99%;
     flex: 1 0 auto;
     padding: 0em;
+    width: 50%;
 }
 
 .tj{
@@ -621,6 +767,7 @@ article .contenedorgp{
     -webkit-text-stroke: 0.5px black;
     font-size: 1.75em;
     text-align: center;
+    margin: 0%;
 }
 
 
@@ -632,6 +779,7 @@ article .contenedorgp{
     -webkit-text-stroke: 0.5px black;
     font-size: 1.75em;
     text-align: center;
+    margin: 0%;
 }
 
 .infojuego{
@@ -667,15 +815,17 @@ article .conteinfo{
 }
 .conteinfo .infopg1{
     flex: 1 1 auto;
-    align-self: auto;
-  height: 99%;
+    align-self: center;
+     height: 99%;
+     border:2px solid #cb59ff;
 
 }
 
 .conteinfo .infopg2{
     flex: 1 1 auto;
-    align-self: auto;
+    align-self: center;
   height: 99%;
+  border:2px solid #59ff61;
 }
 .aoculto{
     visibility: hidden;
@@ -746,39 +896,98 @@ button{
  .button2:active{
     transform: scale(0.9);
  }
-
-.head {
-    background-color: #52a535;
-    display: flex;
+/*mediagp*/
+@media screen and ( max-width:450px) {
+  .container{
     width: 100%;
-    height: 60px;
+  }
+  .conteinfo{
+    width: 100%;
+   
+  }
+  .artconte{
+    width: 100%;
+    height: 100%;
+  }
+  .infopg1{
+    width: 50%;
+    margin: 0%;
+    
+  }
+}
+.pc1{
+   
+  visibility: hidden;
+
 }
 
-.navbar a {
-    color: white;
-    text-transform: uppercase;
-    padding: 0.938em 0.938em;
-    display: block;
+  @media screen and ( max-width:450px) {
+
+  .infopg2{
+    width: 50%;
+    margin: 0%;
+  }
+ .PC2{
+  visibility: hidden;
+   }
 }
 
-.navbar {
-    display: flex;
-    margin-right: 0.625em;
+
+@media screen and ( max-width:600px) {
+  main{
+    width: 100%;
+  }
+  .conteinfo{
+    width: 100%;
+   
+  }
+
+  .artconte{
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .infopg1{
+    width: 50%;
+    margin: 0%;
+  }
+}
+
+  @media screen and ( max-width:600px) {
+
+  .infopg2{
+    width: 100%;
+  }
+
+  .pc2{
+    visibility: hidden;
+  
+  }
 
 }
+  
+.aoculto{
+  visibility: hidden;
+}
+
+
 
 .cuerpo {
     background-color: #83b6be;
 }
+/*FOOTER*/
 
-#pf{
+#cf{
     display:flex;
-    width: 78.2em;
+    width: 78em;
+    
+    margin-top: 3%;
   
   }
-  .contefoo{
-      border: black 3px solid;
-      height: 37.5rem;
+  #cf .contefoo{
+      border: black 4px solid;
+      height: 38.5rem;
       width:100%;
         padding: 3em;
         background:linear-gradient(rgba(255, 255, 255, 0.8), transparent) ; /* Fondo semi-transparente para mejor legibilidad */
@@ -791,7 +1000,6 @@ button{
           bottom: 0%;
           font-family: Arial, Helvetica, sans-serif;
           font-weight: bold;
-      
 
       }
     }
@@ -837,37 +1045,18 @@ button{
     padding: 1%;
     opacity: 120%;
   }
-  @media ( max-width:600px) {
-    .pf{
-      width: 100%;
-      
-    }
-    .contefoo{
-      width: 100%;
-    }
-     
-  }
-
-  @media ( max-width:450px) {
-    .pf{
-      width: 100%;
-      
-    }
-    .contefoo{
-      width: 100%;
-    }
-     
-  }
-
+ 
  .conteinfofooter{
     z-index: 0;
-    width: 90%;
+    width: 99%;
     font-family:'Staatliches',cursive;
     color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem 8%;
+   
+    
 
     & .infofooter{
       width: 100%;
@@ -877,6 +1066,8 @@ button{
       gap: 1rem;
       color: black;
       padding: 0 2rem;
+    
+     
   
       & h2 {
         position: relative;
@@ -927,6 +1118,7 @@ button{
       gap: 3rem;
       padding: 0 2rem;
   
+  
       & ul {
         list-style-type: none;
   
@@ -955,21 +1147,136 @@ button{
       transform: translate(-0.1rem,-0.25rem);
     }
   }
+.arr{
+  border: 2px solid black;
+}
   
-  @media (max-width:700px) {
+  @media  screen and ( max-width:400px){
+    #cf{
+      width: 100%;
+    }
+    .contefoo{
+      width: 80%;
+    }
+    .contelineas{
+      width: 100%;
+      display: flex;
+    }
+     
+    .l3{
+      width: 100%;
+      object-fit: cover;
+    }
+    .conteinfofooter{
+      width: 100%;
+      height: 50%;
+      display: inline-flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+    
+    }
+    .infofooter{
+      width: 100%;
+     height: 60%;
+     flex: 0 1 auto;
+     align-self: auto;
+     object-fit: contain;
+     font-size: 100%;
+    
+    }
+   
+    .infofooter .iconosf{
+      width: 100%;
+      display: flex;
+     
+    }
+    .contea{
+      visibility: hidden;
+    }
+
+    .carr{
+      margin-bottom: -12%;
+    }
+
+     }
+  
+     @media  screen and ( max-width:600px){
+      #cf{
+        width: 100%;
+        gap: 0em;
+      }
+      .contefoo{
+        width: 100%;
+      }
+      .contelineas{
+        width: 100%;
+        display: flex;
+      }
+       
+      .l3{
+        width: 100%;
+        object-fit: cover;
+      }
+      .conteinfofooter{
+        width: 100%;
+        height: 100%;
+        margin-top: 0%;
+    
+       
+      }
+      .infofooter{
+        width: 100%;
+       height: 100%;
+       font-size: 60%;
+       margin: 0%;
+       display: flex;
+      
+      }
+      .contea{
+      width: 100%;
+      height: 100%;
+       font-size: 53%;
+       display: flex;
+       object-fit: contain;
+       margin: 0%;
+       gap: 1em;
+    
+      }
+      .infofooter .iconosf{
+        width: 80%;
+        display: flex;
+        
+      }
+    
+     }
+
+
+
+  @media (max-width:750px) {
     footer {
       flex-wrap: wrap;
       gap: 1rem;
+    }
+    #cf{
+      width: 100%;
+    }
+    .contefoo{
+      width: 50%;
+    }
+    .contelineas{
+      width: 100%;
+      display: flex;
+    }
+     
+    .l3{
+      width: 100%;
+      object-fit: contain;
     }
   }
   
-  @media (max-width:700px)
-  {
-    footer {
-      flex-wrap: wrap;
-      gap: 1rem;
-    }
-}
+ 
 
    
     
