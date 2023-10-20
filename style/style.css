@@ -5,13 +5,14 @@
 }
 body{
   background: url(/style/img/SHOP/bloque-minecraf-fondo.png);   
+  background-size: cover;
     }
   
     .head {
       background-color: #52a535;
       display: flex;
       width: 100%;
-      height: 60px;
+      height: 3.75em;
   }
   
   .navbar a {
@@ -26,9 +27,9 @@ body{
       margin-right: 0.625em;
   
   }
-
-/*Header*/
-.header {
+  
+  /*Header*/
+  .header {
     background-color: #333;
     padding: 0.625rem;
     height: 3em;
@@ -36,8 +37,55 @@ body{
     font-size: 2em;
     display: flex;
     justify-content: space-between;
-    width: 39em;
-}
+    width: 31.5em;
+  }
+
+  .imagen_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6rem;
+  
+  }
+  .imagen_logo a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.1em;
+    font-size: 1em;
+    & .letra{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  }
+  .nav_link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.625em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav_link:hover{
+    text-shadow: -0.31em 0.25em black;
+    color: #06a500;
+    
+  }
+  .logo{
+    width: 1.3em;
+    height: 1.3em;
+  }
+  
+  
+  .nav_bar_aPage{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 0.625em;
+  
+    
+  }
+  
+  .nav_bar_aPage:hover{
+    color: #06a500;
+  }
+  
 
 @media screen and ( max-width:450px) {
   .header{
@@ -50,13 +98,15 @@ body{
     }
     }
   
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: :800px) {
     .header {
-     width: 80%;
+   width: 90%;
    
     }
     }
+   
   }
+
 
 .menuitems {
     text-align: center;
@@ -195,51 +245,7 @@ body{
     transition:all 200ms;
 }
 
-.imagen_logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 6rem;
-  
-}
-.imagen_logo a{
-    text-decoration: none;
-    color: #fff;
-    margin: 0.1em;
-    font-size: 1em;
-    & .letra{
-      font-family: Arial, Helvetica, sans-serif;
-    }
-}
-.nav_link {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0.625em;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
-.nav_link:hover{
-    text-shadow: -0.31em 0.25em black;
-    color: #06a500;
-    
-}
-.logo{
-    width: 1.3em;
-    height: 1.3em;
-}
-
-
-.nav_bar_aPage{
-    color: #fff;
-    text-decoration: none;
-    margin: 0 0.625em;
-  
-    
-}
-
-.nav_bar_aPage:hover{
-    color: #06a500;
-}
 
 /*Register */
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
@@ -254,7 +260,8 @@ body{
 
 /*main*/
 .container{
-  width: 78rem;
+  width: 63em;
+  border: 3px solid palevioletred;
 }
 
 @media screen and ( max-width:400px) {
@@ -273,13 +280,23 @@ body{
   }
 }   
 
-@media screen and ( max-width:750px) {
+@media screen and ( max-width:800px) {
   .container{
    width: 100%;
    object-fit: contain;
   margin: auto;
   
   }
+}
+
+  @media screen and ( max-width:1500px) {
+    .container{
+     width: 100%;
+     object-fit: contain;
+    margin: auto;
+    
+    }
+
 }   
  .titulo{
   width: 90%;
@@ -327,7 +344,7 @@ margin: auto;
   }  
         }   
 
-@media screen and ( max-width:790px){
+@media screen and ( max-width:800px){
           
   .it{
          width: 100%; 
@@ -476,7 +493,7 @@ Pendiente de modificacion*/
                width: 70%;
               }  
      }   
-     @media screen and ( max-width:750px){
+     @media screen and ( max-width:800px){
        .carruitems{
          width: 100%;
         }
@@ -505,6 +522,10 @@ i {
     -webkit-text-stroke: 0.08em rgba(188,121,210,1);
 }
 
+#coff{
+  width: 100%;
+  background-color: blanchedalmond;
+}
 #contenedorscroll {
     margin-top: 8%;
     border-radius: 0.313rem;
@@ -512,29 +533,35 @@ i {
     border: 0.40rem  solid black;
     box-shadow: inset 0 0 10px rgba(188,121,210,1), 0 0 17px #11fd25;
     background-color: black;
-    margin-left: 8em;
+    margin: auto;
     display: flex;
-    width: 63em;
+    width: 58em;
     margin-top: 10%;
 
   }
 
   @media screen and ( max-width:400px) {
+    #coff{
+      width: 99%;
+    }
     #contenedorscroll{
-     width: 100%;
+     width:99%;
      height: 50%;
     margin-top: 5%;
     }
      .tituloscroll{
-        width: 100%;
+        width: 80%;
         margin: 0%;
         font-size: 45%;
        }
   }        
   
   @media screen and ( max-width:600px){
+    #coff{
+      width: 100%;
+    }
          #contenedorscroll{
-           width: 100%;
+           width: 99%;
            margin: 0%;
   
           }
@@ -545,10 +572,14 @@ i {
                 }
          
        }   
-       @media screen and ( max-width:750px){
+       @media screen and ( max-width:800px){
+        #coff{
+          width: 99%;
+        }
          #contenedroscroll{
-           width: 100%;
-           margin: 0%;
+          width: 70%;
+          margin: 0%;
+          
   
           }
           .tituloscroll{
@@ -719,28 +750,28 @@ main #conteoff{
 
 
 article{
-    height: 31.5rem;
-    width: 99%;
+    height: 35rem;
+    width: 62em;
     margin-top: 0%;
     background-color: #333;
     border:  0.125rem solid #ffffff;
     box-shadow: inset 0 0 7px rgba(131,58,180,1), 0 0 15px rgb(211, 4, 238);
     margin-left: 0.5em;
     margin-right: 0.5em;
+    border: 4px solid red;
    
 }
 
 article .contenedorgp{
     margin-top: 0%;
     height:19.875em ;
-    width: 99%;
-    margin-left:0.5%;
-    margin-right: 0.5%;
+    width: 100%;
+  
 }
     
 
 .carruvideo{
-    height: 98%;
+    height: 99%;
     position: relative;
     display: flex;
     padding: 0.016;
@@ -821,7 +852,7 @@ width: 50%;
 button{
     border: 0%;
     background-image: linear-gradient(150deg, rgb(19, 230, 230), rgba(9,113,121,1), rgba(7,233,37,1));
-    margin-top: 2%;
+    margin-top: 8%;
     cursor: pointer;
     color: #fff;
     padding: 0.875em 1.875em ;
@@ -831,7 +862,7 @@ button{
     display: flex;
     padding: 0.25em;
     transition: .3s;
-    margin: auto;
+    margin-left: 33%;
     font-family: 'Staatliches',cursive;
     letter-spacing: 0.1em;
   }
@@ -854,7 +885,7 @@ button{
  .button2{
     border: 0;
     background-image: linear-gradient(150deg, rgb(19, 230, 230), rgba(9,113,121,1), rgba(7,233,37,1));
-    margin-top: 2%;
+    margin-top: 4%;
     cursor: pointer;
     color: #fff;
     padding: 0.875em 1.875em  ;
@@ -864,7 +895,7 @@ button{
     display: flex;
     padding: 0.25em;
     transition: .3s;
-    margin: auto;
+   
     font-family: 'Staatliches',cursive;
     letter-spacing: 0.1em;
     
@@ -886,39 +917,43 @@ button{
 /*mediagp*/
 @media screen and ( max-width:400px) {
  
-  .artconte{
-    width: 100%;
+  article{
+    width: 98%;
+    margin: auto;
+    height: 80%;
   }
-
+  .contenedorgp{
+    width: 99%;
+  }
+ .carruvideo{
+  width: 99%;
+ 
+ }
   .conteinfo{
     width: 99%;
     display: flex;
   }
   .infopg1{
     width: 99%;
-   font-size: 65%;
+   font-size: 70%;
   display: flex;
   flex-direction: column;
   }
   
   .infopg2{
     width: 99%;
-    font-size: 65%;
+    font-size: 70%;
     display: flex;
     flex-direction: column;
-   text-align: start;
- 
   }
  
 .itemsv2{
   margin-top: 0%;
 }
 button{
- 
-  align-items: center;
-  justify-content: center;
-  margin: auto;
-  
+ font-size: 75%;
+ margin-top: 10%;
+ margin-left: 7%;
 }
 button span{
   width: 100%;
@@ -926,10 +961,8 @@ button span{
 }
 
   .button2{
-   
-    align-items: center;
-    justify-content: center;
-     margin: auto;
+    font-size: 75%;
+    margin-left: 7%;
     }
 
 .button2 span{
@@ -940,10 +973,18 @@ button span{
 }
 
 @media screen and ( max-width:600px) {
-  .artconte{
-    width: 100%;
+  
+  article{
+    width: 96%;
+  
   }
-
+  .contenedorgp{
+    width: 99%;
+  }
+ .carruvideo{
+  width: 99%;
+ 
+ }
   .conteinfo{
     width: 99%;
     display: flex;
@@ -971,7 +1012,8 @@ button{
  
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin-top: 8%;
+  margin-left: 10%;
   
 }
 button span{
@@ -983,7 +1025,7 @@ button span{
    
     align-items: center;
     justify-content: center;
-     margin: auto;
+    margin-left: 10%;
     }
 
 .button2 span{
@@ -992,7 +1034,69 @@ button span{
      
     }
 }
+
+@media screen and ( max-width:800px) {
+  article{
+    width: 96%;
+  
+  }
+  .contenedorgp{
+    width: 99%;
+  }
+ .carruvideo{
+  width: 99%;
+ 
+ }
+  .conteinfo{
+    width: 99%;
+    display: flex;
+  }
+  .infopg1{
+    width: 99%;
+   font-size: 65%;
+  display: flex;
+  flex-direction: column;
+  }
+  
+  .infopg2{
+    width: 99%;
+    font-size: 65%;
+    display: flex;
+    flex-direction: column;
+   text-align: start;
+ 
+  }
+ 
+.itemsv2{
+  margin-top: 0%;
 }
+button{
+ 
+  align-items: center;
+  justify-content: center;
+  margin-top: 8%;
+  margin-left: 10%;
+  
+}
+button span{
+  width: 100%;
+  height: 100%;
+}
+
+  .button2{
+   
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    }
+
+.button2 span{
+      width: 100%;
+      height: 100%;
+     
+    }
+}
+
 
 
 
@@ -1003,9 +1107,9 @@ button span{
 
 #cf{
     display:flex;
-    width: 78em;
-    
+    width: 62.5em;
     margin-top: 3%;
+    padding: 0%;
   
   }
   #cf .contefoo{
@@ -1277,7 +1381,7 @@ button span{
 
 
 
-  @media (max-width:750px) {
+  @media (max-width:800px) {
     footer {
       flex-wrap: wrap;
       gap: 1rem;
