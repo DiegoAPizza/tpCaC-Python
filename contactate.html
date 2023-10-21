@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./style/img/juego.png" title="minecraft iconos">
+    <script src="https://kit.fontawesome.com/ca8ede1c9c.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Staatliches&display=swap"rel="stylesheet">
     <link rel="stylesheet" href="/style/stylecontacto.css">
+    <script src="/js/contacto.js" ></script>
     <title>contactanos</title>
 </head>
 <body>
@@ -14,18 +20,48 @@
             <picture>
                 <a href="../index.html"><img class="logo" src="/style/img/creeper icon.png" alt="Logo_web_site">
             </picture>
-            <p class="letra">Modo minecraft</p></a>
+            <p class="letra">Modo minecraft</p>
+        </a>
         </div>
 
 
         <nav>
             <a class="nav_link" href="./page/conocenos.html">Saber más</a>
-            
+            <a class="nav_link" href="./page/shop.html">Inicio</a>
             <a class="nav_link" href="./page/shop.html">Shop</a>
 
         </nav>
 
     </header>
+
+    <div class="contactocontainer">
+        <div class="colizq"></div>
+        <div class="colder">
+          <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+              <input type="checkbox" id="checkbox" />
+              <div class="slider round"></div>
+        </label>
+        <div class="description">Dark Mode</div>
+      </div>
+    
+          <h1>Contactanos</h1>
+          <p></p>
+          <form id="formconta" method="post">
+            <label for="name">Nombre Completo</label>
+        <input type="text" id="name" name="name" placeholder="tu nombre completo" required>
+            <label for="email">Email </label>
+        <input type="email" id="email" name="email" placeholder="tu direccion de email" required>
+            <label for="message">Mensaje</label>
+        <textarea rows="6" placeholder="dejanos tu mensaje" id="mensaje" name="mensaje" required></textarea>
+            <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Enviar</button><!--</a>-->
+        
+      </form>
+      <div id="error"></div>
+      <div id="mjenviado"></div>
+        </div>
+      </div>
     
 </body>
+
 </html>
