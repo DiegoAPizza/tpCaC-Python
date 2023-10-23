@@ -15,7 +15,7 @@
   justify-content: space-between;
   z-index: 100;
   position: absolute;
-  width: 100%;
+  width: 32em;
 }
 
 nav{
@@ -49,10 +49,11 @@ img{
 }
 
 .tarjetas {
-  width: 250px;
-  height: 253px;
+  width: 235px;
+  height: 215px;
   perspective: 1000px;
   position: absolute;
+
 }
 
 .tarjeta {
@@ -62,8 +63,8 @@ img{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin-left: 210%;
   margin-top: 41%;
+  margin-left: 170%;
   border: 2.5px solid #ffffff;
   box-shadow: inset 0 0 9px #0576e0, 0 0 18px rgb(211, 4, 238);
 }
@@ -87,12 +88,12 @@ img{
 }
 
 .tarjetasb {
-  width: 240px;
-  height: 256px;
+  width: 235px;
+  height: 215px;
   perspective: 1000px;
   position: absolute;
-  margin-top: 8%;
-  margin-left: 80%;
+  margin-top: 9.5%;
+  margin-left: 75%;
   border: 2 px solid red;
 }
  
@@ -126,8 +127,8 @@ img{
 }
 
 .tarjetasc {
-  width: 250px;
-  height: 248px;
+  width: 235px;
+  height: 215px;
   perspective: 1000px;
   position: absolute;
   top: 7.2%;
@@ -140,7 +141,7 @@ img{
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  margin-top: 20%;
+  margin-top: 23%;
   margin-left: 5%;
   border: 2.5px solid #ffffff;
   box-shadow: inset 0 0 9px #0576e0, 0 0 18px rgb(211, 4, 238)
@@ -224,3 +225,4 @@ img{
   }
 
 }
+
