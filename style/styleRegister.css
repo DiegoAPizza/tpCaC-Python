@@ -13,17 +13,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3px solid red;
+    width: 11.5em;
 }
 .imagen_logo a{
     text-decoration: none;
     color: #fff;
     margin: 0.2em;
+    border: 3px solid yellow;
+    width: 100%;
 }
 .imagen_logo a:hover{
     text-shadow: -5px 4px black;
     color: #06a500;
     
 }
+nav{
+    border: 3px solid greenyellow;
+    width: 11.5em;
+  }
 .mmcontenedor {
     max-width: 1200px;
     margin: 0 auto;
@@ -44,7 +52,47 @@ body {
     font-size: 2em;
     display: flex;
     justify-content: space-between;
+    width: 32em;
 }
+@media  screen and ( max-width:450px){
+    .header{
+        width: 100%;
+        font-size: 70%;
+    }
+    .imagen_logo{
+        width: 70%;
+    }
+    nav{
+        width: 70%;
+    }
+}
+
+@media  screen and ( max-width:1500px){
+    .header{
+        width: 100%;
+       
+    }
+    .imagen_logo{
+        width: 99%;
+    }
+    nav{
+        width: 99%;
+    }
+}
+
+@media  screen and ( max-width:2600px){
+    .header{
+        width: 100%;
+       
+    }
+    .imagen_logo{
+        width: 99%;
+    }
+    nav{
+        width: 99%;
+    }
+}
+
 
 
 .nav_link {

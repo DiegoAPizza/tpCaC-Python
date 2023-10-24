@@ -45,6 +45,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 6rem;
+   
   
   }
   .imagen_logo a{
@@ -52,6 +53,7 @@ body{
     color: #fff;
     margin: 0.1em;
     font-size: 1em;
+    
     & .letra{
       font-family: Arial, Helvetica, sans-serif;
     }
@@ -1451,8 +1453,7 @@ button span{
       
     }
     .contelineas .l3{
-      width: 30%;
-      margin: auto;
+      visibility: hidden;
     }
    
     .conteinfofooter{
@@ -1536,8 +1537,9 @@ button span{
     
       }
       .infofooter .iconosf{
-        width: 80%;
+        width: 90%;
         display: flex;
+        margin: auto;
       }
      }
 
