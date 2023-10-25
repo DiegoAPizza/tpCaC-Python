@@ -17,7 +17,16 @@
   position: absolute;
   width: 32em;
 }
-
+.header{
+  background-color: #333;
+  padding: 0.625rem;
+  height: 3em;
+  align-items: center;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+  width:99.9%;
+}
 nav{
   display: flex;
 }
