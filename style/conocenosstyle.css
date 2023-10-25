@@ -4,6 +4,19 @@
   box-sizing: border-box;
   
 }
+
+.header {
+  background-color: #333;
+  padding: 10px;
+  height: 3em;
+  align-items: center;
+  font-size: 2em;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  position: absolute;
+  width: 32em;
+}
 .header{
   background-color: #333;
   padding: 0.625rem;
@@ -11,6 +24,7 @@
   align-items: center;
   font-size: 2em;
   display: flex;
+  z-index: 100;
   justify-content: space-between;
   width:99.9%;
 }
