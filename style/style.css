@@ -346,7 +346,7 @@ margin: auto;
 }   
 
 .slogan{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches';
     text-align: center;
     font-weight: 43.75em;
     font-style: oblique;
@@ -691,7 +691,7 @@ i {
     letter-spacing: 0.1em;
     background-color:black;
     border-radius: 0.813rem;  
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches';
 }
 
 
@@ -805,7 +805,7 @@ main #conteoff{
 
 
 .titulogp {
-      font-family: 'Staatliches',cursive;
+      font-family: 'Staatliches';
       font-style: italic;
       color: white;
       text-align: center;
@@ -859,7 +859,7 @@ article .contenedorgp{
 }
 
 .tj{
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches';
     color:rgba(7,233,37,1);
     -webkit-text-stroke: 0.5px black;
     font-size: 1.75em;
@@ -871,7 +871,7 @@ article .contenedorgp{
 
 .tj2{
 
-    font-family: 'Staatliches', cursive;
+    font-family: 'Staatliches';
     color:rgba(7,233,37,1);;
     -webkit-text-stroke: 0.5px black;
     font-size: 1.75em;
@@ -934,7 +934,7 @@ button{
     padding: 0.25em;
     transition: .3s;
     margin-left: 33%;
-    font-family: 'Staatliches',cursive;
+    font-family: 'Staatliches';
     letter-spacing: 0.1em;
   }
   
@@ -967,7 +967,7 @@ button{
     padding: 0.25em;
     transition: .3s;
    
-    font-family: 'Staatliches',cursive;
+    font-family: 'Staatliches';
     letter-spacing: 0.1em;
     
   }
@@ -1276,10 +1276,10 @@ button span{
       height: 38.5rem;
       width:100%;
         padding: 3em;
-        background:linear-gradient(rgba(255, 255, 255, 0.8), transparent) ; /* Fondo semi-transparente para mejor legibilidad */
+        background:linear-gradient(rgba(255, 255, 255, 0.8), transparent) ; 
         border-radius: .5em;
         box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
-        text-align: center; /* Centrar el contenido del contenedor */
+        text-align: center;
         margin-top: 3%;
          & p{
           color: black;
@@ -1334,7 +1334,7 @@ button span{
  .conteinfofooter{
     z-index: 0;
     width: 99%;
-    font-family:'Staatliches',cursive;
+    font-family:'Staatliches';
     color: black;
     display: flex;
     justify-content: center;
@@ -1476,6 +1476,7 @@ button span{
     .infofooter .iconosf{
       width: 100%;
       display: flex;
+      margin: auto;
      
     }
     .contea{
