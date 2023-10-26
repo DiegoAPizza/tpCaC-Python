@@ -1450,8 +1450,11 @@ button span{
       display: flex;
       
     }
-    .contelineas .l3{
-      
+    .contelineas .l3 {
+      width: 70%;
+     background-size:contain;
+     background-repeat: no-repeat;
+
     }
    
     .conteinfofooter{
@@ -1571,8 +1574,10 @@ button span{
     }
     .contelineas .l3{
       width: 80%;
-      object-fit: contain;
-      margin-left: 6%;
+      background-size:contain;
+      background-repeat: no-repeat;
+      margin-left: 20%;
+      
     }
    
   }
