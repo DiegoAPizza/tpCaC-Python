@@ -25,7 +25,6 @@ body{
   .navbar {
       display: flex;
       margin-right: 0.625em;
-  
   }
   
   /*Header*/
@@ -45,9 +44,8 @@ body{
     justify-content: center;
     align-items: center;
     margin-left: 6rem;
-   
-  
   }
+
   .imagen_logo a{
     text-decoration: none;
     color: #fff;
@@ -75,19 +73,18 @@ body{
     height: 1.3em;
   }
   
-  
   .nav_bar_aPage{
     color: #fff;
     text-decoration: none;
     margin: 0 0.625em;
-  
-    
   }
   
   .nav_bar_aPage:hover{
     color: #06a500;
   }
-  
+  aside{
+    width: auto;
+  }
 .menuitems {
     text-align: center;
     position: absolute;
@@ -106,15 +103,15 @@ body{
     display:none
 }
 
-@media only screen and (max-width: 400px) {
-  
+@media only screen and (max-width: 450px) {
+ 
   .menuitems {
     clear: both;
-    width: 94%;
+    width: 99%;
     position: relative;
     text-align: center;
     z-index: 0;
-    height: 28%;
+    height: 30%;
   }
 }
 @media only screen and (max-width: 650px) {
@@ -1440,11 +1437,11 @@ button span{
   @media  screen and ( max-width:450px){
     #cf{
       width: 100%;
-      height: 60%;
+      height: 50%;
     }
     #cf .contefoo{
       width: 100%;
-      height: 50%;
+      height: 60%;
       
     }
     .contelineas{
