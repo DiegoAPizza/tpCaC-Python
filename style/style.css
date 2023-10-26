@@ -1387,6 +1387,7 @@ button span{
         padding: 0.25rem 0.5rem 0.25rem 0;
         cursor: pointer;
         color: rgb(0, 0, 0);
+       
   
         &:hover {
           animation: pulse 0.5s;
@@ -1476,8 +1477,11 @@ button span{
     .infofooter .iconosf{
       width: 100%;
       display: flex;
-      margin: auto;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
      
+
     }
     .contea{
       visibility: hidden;

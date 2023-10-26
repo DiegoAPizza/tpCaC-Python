@@ -13,14 +13,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 3px solid red;
     width: 11.5em;
 }
 .imagen_logo a{
     text-decoration: none;
     color: #fff;
     margin: 0.2em;
-    border: 3px solid yellow;
     width: 100%;
 }
 .imagen_logo a:hover{
@@ -29,7 +27,6 @@
     
 }
 nav{
-    border: 3px solid greenyellow;
     width: 11.5em;
   }
 .mmcontenedor {
