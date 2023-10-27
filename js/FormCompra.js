@@ -28,7 +28,7 @@ function validarFormulario() {
   if(!btnChek.checked){
     msg.innerText = 'El elemento está No marcado';
   }
-  else if (!expresionRegular.test(tarjetaDeCredito)) {
+  else if (expresionRegular.test(tarjetaDeCredito)) {
     alert("No se admiten Letras en la Tarjeta de Credito")
   }
   else {
