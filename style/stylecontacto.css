@@ -32,8 +32,47 @@ align-items: center;
 font-size: 2em;
 display: flex;
 justify-content: space-between;
-width:99.5%;
+width:32em;
 }
+
+@media  screen and ( max-width:450px){
+  .header{
+      width: 100%;
+      font-size: 57%;
+  }
+  .imagen_logo{
+      width: 60%;
+  }
+  nav{
+      width: 60%;
+      font-size: 80%;
+  }
+}
+
+
+
+@media  screen and ( max-width:800px){
+  .header{
+      width: 100%;
+      font-size: 95%;
+  }
+  .imagen_logo{
+      width: 80%;
+  }
+  nav{
+      width: 80%;
+  }
+}
+
+
+@media  screen and ( max-width:1500px){
+  .header{
+    width: 100%;
+  }
+}
+
+
+  
 
 .imagen_logo{
 display: flex;
@@ -114,20 +153,64 @@ color: #06a500;
 
   transition: all 0.3s ease-in-out;
 }
+section{
+  width: 64em;
 
+}
 .contactocontainer {
   display: flex;
-  width: 100vw;
+  width: 90vw;
   height: 100vh;
   background: var(--bg-color);
+ 
+}
+
+@media  screen and ( max-width:450px){
+  section{
+    width: 99%;
+  }
+  .contactocontainer{
+      width: 100%;
+      position: relative;
+  }
+  .colder{
+   width: 100%;
+    position: absolute;
+   margin: 0 1;
+   left: 0%;
+   right: 0%;
+   
+  }
+.colizq{
+
+ margin-left: 60%;
+ margin-top: 50%;
+ width: 88%;
+  }
+  .c{
+    margin: 0%;
+  }
+}
+
+
+@media  screen and ( max-width:800px){
+
+  section{
+    width: 99%;
+  }
+.contactocontainer{
+  width: 100%;
+  position: relative;
+}
 }
 
 .colizq {
   width: 45vw;
-  height: 100%;
+  height: 32em;
   background-image: url(/style/img/mmform.png);
   background-size: contain;
   background-repeat: no-repeat;
+ 
 }
 
 .logo form {
@@ -140,6 +223,7 @@ color: #06a500;
   width: 50vw;
   height: 100vh;
   padding: 5rem 3.5rem;
+ 
 }
 
 h1, label, button, .description {
