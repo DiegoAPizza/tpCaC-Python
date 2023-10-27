@@ -104,14 +104,14 @@ body{
 }
 
 @media only screen and (max-width: 450px) {
- 
+
   .menuitems {
     clear: both;
-    width: 99%;
-    position: relative;
+    width: 100%;
     text-align: center;
     z-index: 0;
-    height: 30%;
+    position: relative;
+  
   }
 }
 @media only screen and (max-width: 650px) {
@@ -234,7 +234,6 @@ body{
 }
 
 
-
 /*Register */
 /*MUY MALA PRACTICA PONERLO DIRECTO EN EL BODY YO LO HICE PARA Q VEAN*/
 .fondo_register {
@@ -309,12 +308,12 @@ margin: auto;
  
 }
 
-@media screen and ( max-width:400px) {
+@media screen and ( max-width:450px) {
   .titulo{
     height: 60%;
-    margin-top: 25%;
     width: 100%;
     margin-left: 0%;
+    
   }
     
       .it{
@@ -462,17 +461,21 @@ Pendiente de modificacion*/
 }
 
 
-@media screen and ( max-width:400px) { 
+@media screen and ( max-width:450px) { 
   #contenedorcarru{
     width: 90%;
     overflow: hidden;
   }
   .carru{
-   width: 99%;
+   width: 100%;
+
   }
   .items{
-  width: 50%;
+  width: 100%;
   }  
+  .im{
+    width: 100%;
+  }
 } 
 
 @media screen and ( max-width:600px){
@@ -1294,16 +1297,15 @@ button span{
      height: 5.9em;
     width: 100%;
     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
-      justify-content: flex-start;
-      align-content: flex-start;
-      align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
       top: 0%;
       background: linear-gradient(90deg, rgba(131,58,180,1) 30%, rgba(188,121,210,1) 46%, rgba(100,68,135,1) 82%);
 
   }
-
+ 
   .contelineas .l1{
     border: 0.063em solid black;
      height: 0em;
@@ -1329,6 +1331,7 @@ button span{
     margin-top: -4%;
     padding: 0%;
     opacity: 120%;
+    border: 3px solid red;
   }
  
  .conteinfofooter{
@@ -1447,14 +1450,28 @@ button span{
     }
     .contelineas{
       width: 100%;
-      display: flex;
-      
+      text-align: center;
+     justify-content: center;
+     align-items: center;
+  
     }
-    .contelineas .l3 {
-      width: 70%;
-     background-size:contain;
-     background-repeat: no-repeat;
 
+
+    .contelineas .l1 {
+      margin: 0%;
+      width: 0%;
+      top: 0;
+    }
+    .contelineas .l2 {
+      margin: 0%;
+      width: 0%;
+      top:0;
+    }
+    
+    .contelineas .l3 {
+      background-size:contain;
+      background-repeat: no-repeat;
+      margin: 0px auto;
     }
    
     .conteinfofooter{
