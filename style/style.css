@@ -428,53 +428,83 @@ Pendiente de modificacion*/
    width: 97%;
    justify-content:flex-start ;
    margin: auto;
+   position: absolute;
 }
 
 .carru {
-    height:100%;
-    width: 100%;
+    height:16.5em;
+    width: 57em;
     position: relative;
     transition: all .5s ease;
     display: flex;
     flex-direction: row;
    align-items: center;
    justify-content: center;
-   margin-top: 0.5%;
-   margin-bottom: 0.5%;
+   margin-top: 1%;
+   margin-bottom: 1%;
+   margin-left: 2%;
+   margin-right: 2%;
+
 }
 
 .carru .items {
-    height: 16em;
-    width: 90%;
+    height: 15em;
+    width: 99%;
     flex-flow: wrap;
     margin-bottom: 0;
     justify-content: center;
     align-items: center;
     align-self: center;
     display: flex;
+  
 
 }
-.seccarru{
-  
-  margin-top: 3%;
+.items #cmm1{
+width: 90%;
+}
 
+.items #cmm2{
+  width: 90%;
+ 
+}
+.items #cmm3{
+  width: 90%;
+}
+.items #cmm4{
+  width: 90%;
+}
+.seccarru{
+  margin-top: 3%;
+  height: 20em;
+  position: relative;
+
+}
+.im{
+  width: 90%;
 }
 
 
 @media screen and ( max-width:450px) { 
+  .seccarru{
+    width: 99%;
+    height: 14em;
+    margin: auto;
+  }
   #contenedorcarru{
-    width: 90%;
-    overflow: hidden;
+    width: 99%;
+    height: inherit;
   }
   .carru{
    width: 100%;
 
   }
-  .items{
+  .carru .items{
   width: 100%;
+ 
   }  
   .im{
     width: 100%;
+    
   }
 } 
 
@@ -528,7 +558,7 @@ Pendiente de modificacion*/
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 3em;
+    padding: 1em;
 }
 a {
     text-decoration: none;
@@ -1303,7 +1333,6 @@ button span{
     align-items: flex-start;
       top: 0%;
       background: linear-gradient(90deg, rgba(131,58,180,1) 30%, rgba(188,121,210,1) 46%, rgba(100,68,135,1) 82%);
-
   }
  
   .contelineas .l1{
@@ -1312,6 +1341,7 @@ button span{
       width: 20%;
     margin-left:2%;
     margin-top:3%;
+    
  }
 
   .contelineas .l2{
@@ -1320,7 +1350,6 @@ button span{
       width: 20%;
      margin-left:78%;
      margin-top:0%;
-    
   }
   .contelineas .l3{
     height: 100%;
@@ -1450,28 +1479,27 @@ button span{
     }
     .contelineas{
       width: 100%;
-      text-align: center;
-     justify-content: center;
-     align-items: center;
-  
+      position: relative;
+     
     }
 
 
     .contelineas .l1 {
-      margin: 0%;
-      width: 0%;
-      top: 0;
+      visibility: hidden;
+      margin: 0;
     }
+  
     .contelineas .l2 {
-      margin: 0%;
-      width: 0%;
-      top:0;
+      visibility: hidden;
+      margin:0;
     }
-    
     .contelineas .l3 {
-      background-size:contain;
-      background-repeat: no-repeat;
-      margin: 0px auto;
+    
+      position: absolute;
+      top: 0;
+      left: -10%;
+      right: 0;
+      margin: 0 auto;
     }
    
     .conteinfofooter{
