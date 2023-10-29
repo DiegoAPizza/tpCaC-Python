@@ -69,7 +69,7 @@ function suma() {
     valorActual += 1;
 
     // Actualiza el contenido de la etiqueta con el nuevo valor
-    etiqueta.innerText = valorActual;
+    etiqueta.innerText = valorActual;//ADASDAdsad
 }
 
 function restar() {
